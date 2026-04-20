@@ -176,10 +176,10 @@ Every skill in this marketplace is written with enterprise context baked in, not
 
 ```bash
 # Install all plugins
-claude plugins install saquibjawed/enterprise-ai-product-manager-catalyst
+claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
 
 # Install a single plugin
-claude plugins install saquibjawed/enterprise-ai-product-manager-catalyst/pm-agentic-ai
+claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst/pm-agentic-ai
 ```
 
 ### Claude Cowork (Desktop)
@@ -189,7 +189,7 @@ Install from the plugin marketplace: search for `enterprise-ai-product-manager-c
 ### Manual Installation
 
 ```bash
-git clone https://github.com/saquibjawed/enterprise-ai-product-manager-catalyst.git
+git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
 # Copy desired plugin folders to your Claude skills directory
 ```
 
@@ -391,4 +391,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding skills, commands
 
 ---
 
-*Built by [Saquib Jawed](https://github.com/saquibjawed), Director of Product Management, for enterprise PMs who build at scale.*
+*Built by [Saquib Jawed](https://github.com/SaquibPM), Director of Product Management, for enterprise PMs who build at scale.*

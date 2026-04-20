@@ -4,7 +4,7 @@
   "description": "A modular PM skills marketplace for enterprise B2B product managers. 37 skills, 13 commands, 6 workflows across 8 plugins — covering the full product lifecycle from discovery through growth, with a dedicated agentic AI plugin for designing, evaluating, and governing AI-powered products.",
   "author": "Saquib Jawed",
   "license": "Apache-2.0",
-  "repository": "https://github.com/saquibjawed/enterprise-ai-product-manager-catalyst",
+  "repository": "https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst",
   "plugins": [
     {
       "name": "pm-discovery",
