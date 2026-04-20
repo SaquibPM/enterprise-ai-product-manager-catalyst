@@ -1,0 +1,23 @@
+{
+  "skill_name": "roadmap-planning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is planning its 18-month product roadmap. Strategic themes: (1) AI-driven intelligence (spend insights, category recommendations), (2) Supplier lifecycle management (onboarding, risk, compliance), (3) Integration ecosystem (ERPs, accounting systems, data warehouses), (4) Compliance and controls (audit trails, role-based access). Current ARR: $20M, growth target: 40% YoY. Plan roadmap phases aligning features with business goals and customer segments (enterprise, mid-market).",
+      "expected_output": "18-month roadmap with: 1) Strategic themes and connection to business goals 2) Phased releases (Q2-Q4, Q1-Q2 next year) 3) Feature breakdown by phase with effort estimates 4) Prioritization rationale (customer impact, revenue impact, competitive necessity) 5) Resource allocation and team structure needed 6) Customer segment focus by phase (enterprise vs. mid-market waves) 7) Dependency management and risk mitigation 8) Success metrics and adjustment process",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Develop 12-month roadmap for TalentOS HR platform. Current state: $20M ARR, Series B-funded. Strategic goals: 1) Expand into ATS, 2) Build API marketplace, 3) Increase international presence (APAC). Stakeholders: Sales, Customer Success, CEO, Board. Need quarterly themes, major bets, and resource planning.",
+      "expected_output": "Quarterly roadmap including: 1) Strategic narrative connecting market opportunity to priorities 2) 4 quarterly themes with delivery milestones 3) Major initiatives: ATS, APIs, international 4) Dependency sequencing and critical path 5) Team structure and skill requirements 6) Customer communication plan 7) Competitive differentiation strategy 8) Success metrics by quarter",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Plan 24-month roadmap for DataFlow, moving from single-tenant to platform-as-a-platform. Phase 1 (6 months): Core multi-tenancy, Phase 2 (6 months): Marketplace launch, Phase 3 (6 months): AI agents, Phase 4 (6 months): Expansion to APAC. Budget: 18 engineers. Current ARR: $15M, target: $50M+.",
+      "expected_output": "Platform transformation roadmap with: 1) Phased approach with clear phase gates 2) Technical and product dependencies 3) Go-to-market evolution through phases 4) Customer migration and success strategy 5) Revenue projections by phase 6) Key hiring and infrastructure needs 7) Risk mitigation for each phase 8) Stakeholder communication timeline",
+      "files": []
+    }
+  ]
+}

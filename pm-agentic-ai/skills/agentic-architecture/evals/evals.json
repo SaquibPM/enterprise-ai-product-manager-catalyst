@@ -1,0 +1,23 @@
+{
+  "skill_name": "agentic-architecture",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design agentic architecture for ZyprocAI's autonomous procurement assistant. End goal: AI agent autonomously processes invoices, categorizes spend, recommends suppliers, and manages contract renewals with human approval gates. Architecture requirements: (1) Multi-step reasoning (invoice -> categorization -> supplier match -> contract analysis), (2) Human-in-the-loop for high-value decisions, (3) Compliance and audit trail, (4) Integration with ERP/accounting systems. Design the agent workflows and system architecture.",
+      "expected_output": "Agentic architecture with: 1) Agent persona and capabilities 2) Core workflows (invoice processing, category recommendation, supplier matching, contract renewal) 3) Decision trees with human approval gates (high-value decisions, edge cases) 4) Reasoning and planning approach (multi-step agent behavior) 5) Integration points with external systems (ERP, supplier data, contract library) 6) Safety and compliance controls (audit trail, explainability) 7) Feedback loops and continuous learning 8) Implementation phases and success metrics",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're building a customer support agent for our B2B SaaS platform. It needs to handle tier-1 tickets automatically but escalate complex issues. Design the architecture.",
+      "expected_output": "Should produce router pattern with escalation, confidence-based routing, multi-tenant context isolation, and cost model for high-volume ticket processing",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "My CEO wants us to add 'AI agents' to our procurement platform. Right now we just have a chatbot that answers questions about purchase orders. How do I think about whether we need actual agents vs. better automation?",
+      "expected_output": "Should apply the Agency Spectrum framework, likely concluding that most use cases need Augmented Intelligence not full Autonomous Agency, with specific recommendations for which procurement workflows benefit from which level",
+      "files": []
+    }
+  ]
+}

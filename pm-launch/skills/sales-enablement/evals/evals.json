@@ -1,0 +1,23 @@
+{
+  "skill_name": "sales-enablement",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is launching Supplier Intelligence (AI-driven supplier risk and performance analytics). Equip 12-person sales team with resources to sell this $8K-15K annual add-on module. Current close rate for add-ons: 25%. Create sales enablement package including positioning for key buyer personas (Finance Director, Procurement VP), competitive comparison against Coupa, ROI calculator, discovery questions, case studies.",
+      "expected_output": "Sales enablement with: 1) Buyer persona profiles and buying criteria 2) Value propositions for each persona (Finance vs. Procurement) 3) Competitive comparison and positioning against Coupa 4) Discovery questions to uncover supplier risk/performance pain points 5) ROI calculator showing cost savings and time benefits 6) Case studies and win/loss narratives 7) Objection handling guide (implementation complexity, data integration) 8) Sales training plan and success metrics (deal velocity, close rate)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "SecureData is scaling sales team from 3 to 12 people. Product: multi-tenant data governance platform. Current: 60% win rate in SMB, 20% in Enterprise. Goal: improve enterprise win rate to 40%. Create sales enablement roadmap including training, tools, processes, and coaching.",
+      "expected_output": "Sales scaling plan with: 1) Sales process documentation (territory planning, qualification) 2) Enterprise selling training (identifying power buyers, complex sales) 3) Sales tools (CRM templates, playbooks, tracking) 4) Competitive positioning against Collibra and Informatica 5) Sales metrics and activity targets 6) Coaching and performance management approach 7) Compensation structure (quota setting, incentives) 8) Quarterly business reviews with sales team",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "TalentOS is rolling out AI assistant feature to 200-customer base. Sales team needs to sell feature as add-on (ARPU: $10K to $15K expansion). Current sales team lacks AI/ML expertise. Create quick 30-day enablement plan to ramp team on feature and drive adoption.",
+      "expected_output": "Rapid enablement with: 1) Feature overview and use case scenarios 2) ROI talking points (time savings, quality improvements) 3) Objection handling (bias concerns, learning curve) 4) Sales collateral (one-pagers, customer stories, demo) 5) Sales playbook for expansion conversations 6) Compensation incentive alignment 7) Weekly training and Q&A cadence 8) Success tracking (adoption rate, expansion revenue)",
+      "files": []
+    }
+  ]
+}

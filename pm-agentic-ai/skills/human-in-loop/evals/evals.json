@@ -1,0 +1,23 @@
+{
+  "skill_name": "human-in-loop",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design human-in-the-loop system for ZyprocAI's autonomous invoice processing. Challenge: Balance AI speed (1M invoices/month) with human review/correction needs. Approach: (1) AI handles high-confidence categorizations autonomously (>95%), (2) routes medium-confidence (80-95%) to human reviewers for quick review, (3) flags low-confidence (<80%) for manual handling, (4) feedback loop trains AI from corrections. Design the interaction workflow and UI for human reviewers.",
+      "expected_output": "Human-in-the-loop system with: 1) Confidence tiering strategy and thresholds 2) Workflow routing logic (autonomous vs. human review) 3) Human reviewer interface and experience 4) Feedback capture mechanism (corrections, explanations) 5) Continuous learning pipeline (retraining from human feedback) 6) Performance metrics (accuracy improvement, human throughput) 7) Scale management (volume during peak seasons) 8) Quality assurance and consistency checks",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We operate a content moderation system that flags harmful content before it goes live. It processes 50k posts/day. We have 20 moderators. Our false positive rate is 15% (too aggressive). Calibrate the confidence threshold to balance coverage, accuracy, and human workload.",
+      "expected_output": "Should provide: framework for mapping confidence thresholds to SLA and accuracy targets, calculation showing impact of threshold changes on moderator queue (e.g., 0.7 threshold = 5k reviews/day = unworkable), recommended threshold with explanation, A/B test design to validate, metrics tracking (precision, recall, % requiring escalation, moderator agreement rate), and feedback mechanism for retraining",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our AI reviews enterprise contracts for legal risks before deals close. Deals are worth $1-50M. The AI finds issues but a lawyer must approve any action. Design the approval workflow considering deal velocity and risk severity.",
+      "expected_output": "Should design: risk severity scoring with approval routing (low risk = team lead, high risk = partner), SLA targets for different risk tiers, escalation paths for complex issues, audit trail showing AI recommendation vs. lawyer decision, feedback loop showing which issues lawyers agreed with, metrics (time-to-approval by risk tier, AI accuracy by risk type, agreement rates), and explicit guardrails for when AI should refuse to assess",
+      "files": []
+    }
+  ]
+}

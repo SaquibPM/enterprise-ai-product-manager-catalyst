@@ -1,0 +1,23 @@
+{
+  "skill_name": "prd-development",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is launching a new feature: AI-Assisted Invoice Categorization. Customer feedback shows 72% waste time on manual category coding. Feature: Claude AI automatically categorizes invoices (indirect spend) with 95%+ accuracy, allows finance teams to override + provide feedback for continuous improvement. MVP scope: 20 major spend categories, supports PDF invoices, 1-second processing time. Write a comprehensive PRD for this feature.",
+      "expected_output": "Complete PRD with: 1) Product overview and value proposition (time savings, accuracy) 2) Target customer segments and personas (finance directors, AP teams) 3) Feature scope and specifications (categories covered, accuracy targets, processing SLA) 4) User workflows (invoice upload, AI categorization, review/override, feedback loop) 5) Success metrics (adoption %, accuracy improvement, time saved per user) 6) MVP vs. future scope (multi-language, additional categories, integration) 7) Release plan and rollout strategy 8) Technical and operational requirements",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a PRD for multi-tenancy support in our B2B SaaS application (DataFlow). Current: single-instance per customer. New: true multi-tenancy to support agencies managing multiple client accounts. Business goal: improve sales velocity for managed service provider segment. Timeline: 6 months, requires database redesign, data isolation compliance.",
+      "expected_output": "Technical PRD with: 1) Architecture overview and tenant isolation approach 2) Data security and compliance requirements 3) Customer-facing feature set 4) Pricing and packaging changes 5) Migration strategy for existing customers 6) API/integration considerations 7) Success metrics (MSP adoption, efficiency gains) 8) Risk assessment and contingencies",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Develop PRD for AI assistant feature in our HR platform (TalentOS). Feature: AI-powered resume screening and interview prep for recruiters. Target: enterprise talent acquisition teams processing 500+ applications/month. Budget: $300K development, Timeline: 90 days. Must comply with EEOC guidelines and bias prevention standards.",
+      "expected_output": "Product PRD with: 1) Feature overview and user workflows 2) AI/ML approach and bias mitigation strategy 3) Compliance and legal requirements 4) User acceptance criteria 5) Data privacy and retention policies 6) Competitive positioning 7) Go-to-market plan 8) Success metrics (recruiter productivity, time-to-hire improvements)",
+      "files": []
+    }
+  ]
+}

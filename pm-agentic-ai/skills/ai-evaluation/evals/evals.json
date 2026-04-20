@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-evaluation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Evaluate AI models for invoice categorization in ZyprocAI. Candidates: (1) Fine-tuned Claude API for spend category classification (200+ categories), (2) OpenAI GPT-4 with few-shot prompting, (3) In-house fine-tuned open-source model (Mistral). Evaluation criteria: accuracy (% correct on hold-out set), latency (<1s/invoice), cost ($0.01-0.05/invoice), hallucination rate. Design evaluation framework and recommend winner.",
+      "expected_output": "AI model evaluation with: 1) Candidate model comparison 2) Evaluation framework (accuracy, latency, cost, hallucination) 3) Test dataset design (invoice samples, edge cases) 4) Benchmark results and analysis 5) Cost-benefit analysis (accuracy vs. latency vs. cost trade-offs) 6) Production readiness assessment (monitoring, failure modes) 7) Recommendation with rationale 8) Deployment and rollout strategy",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're upgrading our recommendation model from Claude 3 Opus to Claude 3.5 Sonnet in production. We need to ensure we don't regress on recommendation quality. We have 2 weeks before launch. Design an eval plan that gives us confidence to roll forward.",
+      "expected_output": "Should produce regression testing strategy including baseline metrics from current model, test suite covering edge cases (low-intent users, new products, seasonal shifts), A/B test design, rollback criteria, and specific instructions for running before/after comparison on same query set",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Our content team wants to use an LLM to generate product descriptions. We need evaluators (not just metrics) to judge quality. Our rubric needs to assess factual accuracy, brand tone match, and SEO optimization. How do we build an LLM-as-judge evaluation that our content leads will trust?",
+      "expected_output": "Should provide detailed rubric with 3-5 criteria per dimension, anchor examples for each score level, instructions for consistent judgment, validation approach (human spot-check % and inter-rater agreement target), and explanation of why LLM-as-judge works or doesn't work for each dimension",
+      "files": []
+    }
+  ]
+}

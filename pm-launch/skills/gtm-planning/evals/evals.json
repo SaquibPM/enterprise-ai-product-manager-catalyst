@@ -1,0 +1,23 @@
+{
+  "skill_name": "gtm-planning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is launching Supplier Intelligence module in Q3. Target segment: mid-market companies with $100M-$500M revenue. Go-to-market strategy: (1) Sales-assisted for initial 50 customers, (2) Marketing campaign (procurement industry events, LinkedIn, whitepapers), (3) Case study program with early adopters, (4) Pricing: $5K-15K annual add-on. Plan GTM campaign including positioning, channel strategy, sales playbook, marketing execution.",
+      "expected_output": "GTM plan with: 1) Product positioning and value proposition for mid-market 2) Target customer profile and selection criteria 3) Pricing and packaging strategy with willingness-to-pay analysis 4) Sales enablement (playbook, collateral, training) 5) Marketing campaign (channels, messaging, timeline) 6) Partner and channel strategy if applicable 7) Launch metrics and success criteria (units sold, CAC, pipeline generation) 8) Post-launch optimization plan",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is launching API marketplace for third-party integrations. Target customers: mid-market HR teams wanting custom integrations. Business goal: increase stickiness and drive platform adoption. Plan GTM for: 1) Developer audience, 2) HR practitioner audience, 3) Integration partner ecosystem. Timeline: 90 days to launch.",
+      "expected_output": "Multi-audience GTM with: 1) Segmented positioning for developers, HR teams, and partners 2) Developer ecosystem strategy (SDKs, documentation, incentives) 3) HR buyer motion (value prop, use cases) 4) Partner recruitment and enablement 5) Launch campaign (PR, webinars, blogs) 6) Pricing model for APIs 7) Success metrics (developer sign-ups, integrations built, customer impact) 8) Q1-Q2 roadmap extensions",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is entering healthcare vertical with HIPAA-compliant data governance solution. Competitors: Collibra, Informatica. Sales team: 3 people. Marketing budget: $100K. Target: 10 customers in first year, average ACV $300K. Create realistic GTM plan including channel strategy, sales hiring, and go-to-market sequencing.",
+      "expected_output": "Vertical launch GTM with: 1) Healthcare market positioning and compliance messaging 2) Sales strategy (direct, channel, consulting partners) 3) Marketing approach (vertical events, analyst relations, partnerships) 4) Sales team structure and hiring plan 5) Customer reference building strategy 6) Regulatory and compliance roadshows 7) Pricing and ROI calculator 8) Year 1 revenue model and metrics",
+      "files": []
+    }
+  ]
+}

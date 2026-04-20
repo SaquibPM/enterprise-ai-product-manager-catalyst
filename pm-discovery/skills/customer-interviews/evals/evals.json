@@ -1,0 +1,23 @@
+{
+  "skill_name": "customer-interviews",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's procurement analytics platform serves 150 customers. Your discovery goal: understand why mid-market customers (our fastest-growing segment) adopt advanced features (Category Intelligence, Supplier Intelligence) at 2x the rate of enterprise. Plan 8 customer interviews: 4 adopters of advanced features, 4 non-adopters in same segment. Focus on procurement workflows, pain points with existing tools, decision-making process. Develop interview guide.",
+      "expected_output": "Customer interview guide with: 1) Research objectives and hypotheses 2) Participant selection criteria (company size, use case, feature adoption) 3) Interview structure and flow (opening, procurement workflow exploration, tool evaluation, decision process) 4) 12-15 specific questions probing pain points and feature value 5) Probe strategies for unpacking procurement process details 6) Segment-specific follow-ups (mid-market vs. enterprise) 7) Session logistics and note-taking approach 8) Analysis framework to identify patterns and opportunities",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "At TechFlow Solutions, we're planning a new developer-focused analytics API. Our initial customer conversations suggest two use cases: real-time monitoring vs. historical data analysis. Design interview methodology to identify which use case has higher willingness to pay, implementation complexity, and competitive advantage. Target 8-10 enterprise tech teams currently using Datadog or New Relic.",
+      "expected_output": "Detailed interview script with: 1) Discovery questions validating problem severity 2) Pricing/value perception probes 3) Feature prioritization section 4) Implementation constraint assessment 5) Willingness-to-pay methodology 6) Follow-up action items for qualifying leads",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Insurtech startup here. We need to understand CISO priorities for our enterprise cyber insurance platform. Current leads include Deloitte, Marsh McLennan, and Chubb. They're asking about coverage limits, incident response workflows, and AI-driven risk assessment. Develop a customer interview framework to assess product-market fit and identify non-negotiables vs. differentiators.",
+      "expected_output": "Interview framework including: 1) Persona-specific discovery (CISO vs. Risk Manager vs. Claims) 2) Competitive comparison questions 3) Decision criteria and buying committee mapping 4) Compliance/regulatory constraint assessment 5) ROI validation methodology 6) Timeline expectations for enterprise sales cycle",
+      "files": []
+    }
+  ]
+}

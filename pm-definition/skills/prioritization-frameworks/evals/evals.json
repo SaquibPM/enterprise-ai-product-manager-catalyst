@@ -1,0 +1,23 @@
+{
+  "skill_name": "prioritization-frameworks",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's product backlog has 25 feature requests. Using RICE/ICE framework, prioritize: (1) Supplier Risk Dashboard (high impact on enterprise deals, medium effort), (2) Multi-language invoice support (medium impact, high effort, fast market expansion), (3) API for ERP integration (medium impact, high complexity, unlocks reseller channel), (4) Mobile app for spend visibility (low impact on current business, high effort). Apply framework to recommend prioritization sequence for Q3-Q4.",
+      "expected_output": "Prioritization analysis with: 1) RICE scoring for each feature (Reach, Impact, Confidence, Effort) 2) ICE scoring as secondary validation 3) Feature summary and business case for top 5 items 4) Effort/impact matrix visualization 5) Strategic alignment assessment (aligns with expansion goals, competitive positioning) 6) Resource dependencies and sequencing 7) Recommended roadmap for Q3-Q4 8) Go/no-go decision framework for lower-priority items",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Cortex AI is managing 20 in-flight initiatives with competing stakeholders: Sales (8 feature asks), Engineering (5 tech debt items), Customer Success (4 feature requests), Executive team (3 strategic initiatives). Company: $30M ARR, targeting $100M. Use prioritization framework to determine Q4 focus areas given 4-person team capacity.",
+      "expected_output": "Prioritization framework application with: 1) Framework justification for cross-functional trade-offs 2) Weighted scoring model incorporating: revenue impact, strategic alignment, engineering effort, customer satisfaction 3) Scenario analysis (focus on growth vs. stability) 4) Top 3-5 Q4 priorities 5) Parking lot for future quarters 6) Resource allocation recommendations",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData must choose between: 1) New vertical (healthcare) expansion requiring 2 months sales+product work, 2) API redesign (tech debt, 3 months engineering), 3) AI fraud detection (competitive feature, 4 months). Revenue impact: healthcare +$5M potential, API enables partners (+$2M), fraud detection prevents churn (save $1.5M). Prioritize using appropriate framework.",
+      "expected_output": "Strategic prioritization analysis with: 1) Decision framework selection (Strategy-to-outcome, OKR alignment, or custom model) 2) Quantified impact analysis across revenue, churn, velocity 3) Resource requirements and dependencies 4) Timeline implications and sequencing options 5) Recommendation with risk assessment 6) Contingency plans if priorities shift",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "enterprise-ai-product-manager-catalyst",
+  "version": "1.0.0",
+  "description": "A modular PM skills marketplace for enterprise B2B product managers. 37 skills, 13 commands, 6 workflows across 8 plugins — covering the full product lifecycle from discovery through growth, with a dedicated agentic AI plugin for designing, evaluating, and governing AI-powered products.",
+  "author": "Saquib Jawed",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/saquibjawed/enterprise-ai-product-manager-catalyst",
+  "plugins": [
+    {
+      "name": "pm-discovery",
+      "path": "pm-discovery",
+      "description": "Customer interviews, competitive analysis, research synthesis, market sizing, and advisory board management.",
+      "skills": 5,
+      "commands": 2
+    },
+    {
+      "name": "pm-definition",
+      "path": "pm-definition",
+      "description": "PRD development, API spec design, prioritization frameworks, roadmap planning, and compliance review.",
+      "skills": 5,
+      "commands": 3
+    },
+    {
+      "name": "pm-delivery",
+      "path": "pm-delivery",
+      "description": "Sprint planning, acceptance criteria, analytics instrumentation, and tech debt negotiation.",
+      "skills": 4,
+      "commands": 1
+    },
+    {
+      "name": "pm-launch",
+      "path": "pm-launch",
+      "description": "GTM planning, sales enablement, release notes, RFP response, and customer migration.",
+      "skills": 5,
+      "commands": 2
+    },
+    {
+      "name": "pm-growth",
+      "path": "pm-growth",
+      "description": "Metrics analysis, experimentation, pricing and packaging, and expansion strategy.",
+      "skills": 4,
+      "commands": 1
+    },
+    {
+      "name": "pm-operations",
+      "path": "pm-operations",
+      "description": "Stakeholder communications, decision records, vendor evaluation, platform strategy, and incident response.",
+      "skills": 5,
+      "commands": 1
+    },
+    {
+      "name": "pm-leadership",
+      "path": "pm-leadership",
+      "description": "Vision and strategy, OKR management, executive presentations, and team coaching.",
+      "skills": 4,
+      "commands": 1
+    },
+    {
+      "name": "pm-agentic-ai",
+      "path": "pm-agentic-ai",
+      "description": "Agentic architecture design, AI evaluation frameworks, guardrails and governance, human-in-the-loop patterns, and AI-native UX — the skills no other PM marketplace offers.",
+      "skills": 5,
+      "commands": 2
+    }
+  ],
+  "workflows": [
+    {
+      "name": "feature-kickoff",
+      "path": "workflows/feature-kickoff.md",
+      "description": "Discovery → Spec → Design → Sprint"
+    },
+    {
+      "name": "quarterly-planning",
+      "path": "workflows/quarterly-planning.md",
+      "description": "OKR → Prioritization → Roadmap → Comms"
+    },
+    {
+      "name": "launch-sequence",
+      "path": "workflows/launch-sequence.md",
+      "description": "GTM → Enablement → Rollout → Metrics"
+    },
+    {
+      "name": "competitive-response",
+      "path": "workflows/competitive-response.md",
+      "description": "Competitive Brief → Roadmap → Stakeholder Update"
+    },
+    {
+      "name": "ai-feature-lifecycle",
+      "path": "workflows/ai-feature-lifecycle.md",
+      "description": "Design Agent → Eval → Spec → Launch"
+    },
+    {
+      "name": "customer-discovery",
+      "path": "workflows/customer-discovery.md",
+      "description": "Interviews → Synthesis → JTBD → Spec"
+    }
+  ],
+  "mcp_integrations": [
+    "jira",
+    "confluence",
+    "notion",
+    "gmail",
+    "figma",
+    "google-calendar"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "stakeholder-comms",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Communicate a difficult decision to ZyprocAI stakeholders: deprioritizing the Mobile App feature (customer request, 100+ upvotes) in favor of AI-Assisted Invoice Categorization. Rationale: AI categorization directly addresses top pain point (72% waste time on manual coding), delivers faster ROI ($850K expansion revenue opportunity), aligns with market positioning. Create communication strategy including email, presentation, FAQ addressing stakeholder concerns.",
+      "expected_output": "Communication strategy with: 1) Core message and rationale for the decision 2) Stakeholder impact analysis (sales, customers, eng) 3) Email announcement with decision reasoning 4) FAQ addressing common concerns (why not both, timeline for mobile) 5) Presentation for affected teams 6) One-on-one talking points for executives 7) Follow-up engagement plan (progress updates, future consideration of mobile) 8) Risk mitigation for at-risk stakeholder relationships",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is planning major pricing change (effective 30 days). Affected: 200 existing customers (some multi-year contracts), 400 prospects in pipeline (new terms), Sales team (commission impacts), Board (revenue uplift). Some customers will churn. Create inclusive communication strategy.",
+      "expected_output": "Change management communications with: 1) Pricing change rationale by audience 2) Customers: value message, transition options (grandfather clauses), contract negotiations 3) Prospects: new pricing, competitive positioning 4) Sales: talking points, commission protection, objection handling 5) Board: revenue impact, churn forecast, mitigation 6) Timing and sequence (pre-announcement, launch, follow-up) 7) FAQ and escalation process 8) Success metrics",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is spinning off AI governance as separate product (new team, new brand). Affects: current customers (who get both products), sales channel (separate sales), team (reorganization). Some customers may see price increase. Create transparent communication managing expectations.",
+      "expected_output": "Product spinoff communications with: 1) Strategic narrative (why separate product benefits them) 2) Customer communication: bundled pricing, new product value, support continuity 3) Sales team: new go-to-market, territory realignment, compensation 4) Partner ecosystem: channel changes, support model 5) Team: new structure, career opportunities, integration points 6) Competitive positioning 7) Communication timeline and phases 8) Stakeholder feedback channels",
+      "files": []
+    }
+  ]
+}

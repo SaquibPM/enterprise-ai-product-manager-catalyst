@@ -1,0 +1,23 @@
+{
+  "skill_name": "research-synthesis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's Procurement team conducted interviews (15 finance directors, 8 procurement leaders) and ran a survey (50 mid-market CFOs). Key findings: (1) 85% struggle with invoice accuracy and matching, (2) 72% waste 40+ hours/month on manual category coding, (3) 60% want AI-powered supplier recommendations but lack confidence in AI decisions, (4) ROI expectations: 15-20% savings or 400+ hours reclaimed annually. Synthesize findings into actionable insights for product roadmap.",
+      "expected_output": "Research synthesis with: 1) Key themes and patterns across interviews and surveys 2) Customer segment insights (what matters to finance vs. procurement) 3) Problem prioritization (pain point severity, frequency, impact) 4) Desired solution characteristics (AI transparency, ease of override, integration) 5) Feature/capability recommendations with supporting evidence 6) Roadmap implications (what to build, what to deprioritize) 7) GTM and positioning guidance based on customer mental models 8) Success metrics for validating hypotheses in product",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "CloudSecure completed market research: 40 interviews with CISOs, analyst reports from Gartner/Forrester, and 6 months of sales pipeline data. Key themes: real-time threat detection (35% mention), compliance reporting (45%), and API integration (25%). Budget allocated for security tools ranges $200K-$2M annually. Synthesize to determine product positioning and initial go-to-market focus.",
+      "expected_output": "Research synthesis including: 1) Thematic clustering of findings across sources 2) Customer priority ranking with confidence levels 3) Budget and procurement timeline insights 4) Competitive positioning based on research 5) Recommended ICP (Ideal Customer Profile) 6) GTM strategy and messaging framework",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "DataFlow conducted discovery: 25 user interviews with data engineers, analyzed 3 competitor products, reviewed 15 industry reports on data pipeline trends. Findings show 80% have workflow visibility gaps, 60% struggle with cost attribution, 70% lack change management controls. Synthesis needed to determine feature roadmap and messaging for Series B positioning.",
+      "expected_output": "Comprehensive synthesis with: 1) Validated problem-solution fit evidence 2) Market size estimation by use case 3) Feature prioritization matrix 4) Persona refinement and buying committee mapping 5) Positioning statement and key messaging 6) Recommendations for product roadmap Q2-Q4",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "platform-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Define platform strategy for ZyprocAI to become a procurement OS for mid-market. Vision: central platform where multiple applications (invoicing, contract management, supplier management) integrate and share data/AI insights. Current: point solution for spend analytics. Strategy elements: (1) API-first architecture for third-party integrations, (2) app marketplace (internal apps + partners), (3) data warehouse enabling cross-app intelligence. Create 18-month platform strategy.",
+      "expected_output": "Platform strategy with: 1) Platform vision and competitive positioning 2) Architecture principles (API-first, data sharing, modular) 3) Core platform capabilities (API, data layer, integration framework) 4) App ecosystem strategy (build vs. partner) 5) Monetization model (platform fees, marketplace revenue share) 6) Phased rollout (v1 foundation, v2 marketplace, v3 autonomous) 7) Organizational structure for platform strategy 8) Success metrics (developer adoption, ecosystem revenue)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is building platform for talent workflow automation. Current product features hiring and performance management. Strategy: open API for HR integrations (compensation, learning, analytics). Target: 100+ ecosystem partners in 2 years. Design platform business model: partner types, APIs, incentives, revenue impact.",
+      "expected_output": "Platform business design with: 1) Partner types and tiers (integrations, apps, resellers) 2) API strategy (REST, webhooks, embedded) 3) Partner onboarding and enablement 4) Revenue model (free tier, revenue share, white-label licensing) 5) Developer portal and documentation 6) Support and SLAs for partners 7) Competitive differentiation via platform 8) Financial projections (partner revenue % target)",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData considering platform expansion: enable customers to build custom governance workflows on top of core platform. Goals: increase lock-in, reduce custom dev costs, create ecosystem revenue. Current: highly customized implementations for each customer. Design workflow platform strategy.",
+      "expected_output": "Workflow platform design with: 1) Workflow builder capabilities and user personas 2) Template library and community contributions 3) APIs and extensibility model 4) Governance and approval for custom workflows 5) Compliance and audit for user-built workflows 6) Pricing: platform premium tiers 7) Partner program (workflow developers) 8) Go-to-market and internal training",
+      "files": []
+    }
+  ]
+}

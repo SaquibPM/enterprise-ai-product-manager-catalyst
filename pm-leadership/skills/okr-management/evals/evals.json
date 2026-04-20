@@ -1,0 +1,23 @@
+{
+  "skill_name": "okr-management",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set OKRs for ZyprocAI's Product team for 2026. Strategic context: $20M ARR, 40% growth target ($28M ARR by year-end), expand from US to EMEA, increase mid-market segment revenue. Define Objectives and Key Results for: (1) Customer growth and retention, (2) Revenue expansion (new modules, upsell), (3) Product execution (new platform, autonomous features). Ensure OKRs cascade from company level.",
+      "expected_output": "OKRs with: 1) Company-level OKRs (revenue, growth, customer satisfaction) 2) Product team OKRs aligned with company goals 3) Engineering team OKRs (velocity, technical debt, platform stability) 4) Design/UX OKRs (adoption, NPS, feature usability) 5) Go-to-market team OKRs (pipeline, win rate) 6) Quarterly milestones and checkpoints 7) Success metrics and measurement approach 8) Cross-team dependencies and alignment",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS (40-person company) is cascading Q3 OKRs from company level (grow revenue 40% YoY, improve retention to 95%+) to product team. Product team size: 8 people (5 engineers, 2 product managers, 1 designer). Product team must contribute to company goals while building new features. Create product team OKRs.",
+      "expected_output": "Cascaded Product Team OKRs with: 1) Objective 1: Increase platform adoption and retention (align to company 95% retention goal) - KRs: ship 2 major features, improve feature adoption to 70%, increase customer-generated feature requests by 50% 2) Objective 2: Support SMB growth motion (support company revenue goal) - KRs: ship SMB-specific pricing tier, enable 100 SMB trials, achieve 15% SMB trial-to-paid conversion 3) Objective 3: Improve team velocity and quality - KRs: reduce defect escape rate by 50%, increase shipping frequency to 2x/sprint",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is managing mid-year OKR review. Set at Q1: land 5 new enterprise customers, achieve 100% NRR, ship multi-tenancy. Actual: 3 customers (60%), 95% NRR (95%), multi-tenancy shipped on time (100%). Business environment changed: new competitor emerged, market slower than expected. Reset H2 OKRs reflecting reality.",
+      "expected_output": "OKR Mid-year Review and Reset with: 1) Q1-H1 Performance assessment (what we learned, what changed) 2) Updated H2 Objectives reflecting market realities 3) Adjusted KRs: lower enterprise growth expectations, focus on expansion in existing base, maintain product roadmap 4) Confidence assessment (80%+ likely to hit) 5) Risk mitigation strategies 6) Stakeholder communication (why some goals were reset) 7) Check-in cadence (biweekly vs. monthly)",
+      "files": []
+    }
+  ]
+}
