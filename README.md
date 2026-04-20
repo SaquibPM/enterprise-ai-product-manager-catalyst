@@ -1,22 +1,205 @@
 # Enterprise AI Product Manager Catalyst
 
-**37 skills · 13 commands · 6 workflows · 8 plugins**
+> **Install one plugin. Get a senior PM's frameworks, templates, and judgment — embedded directly in your AI coding tool.**
 
-A modular skills marketplace for enterprise B2B product managers who build at scale — from discovery through growth, with a dedicated plugin for designing, evaluating, and governing agentic AI products.
+You run `/write-spec`. Two minutes later you have a 15-page enterprise PRD with compliance sections, multi-tenant data isolation requirements, and buyer vs. user persona analysis — not a generic template, but a document your VP of Engineering can review today.
 
-Built for Claude Code, Claude Cowork, and compatible AI coding tools.
+You run `/design-ai-agent`. Fifteen minutes later you have a 30-page agent design document covering architecture, guardrails, human oversight, and UX — the kind of deliverable that normally takes a senior PM 2-3 days.
+
+That's what this marketplace does. **37 skills, 13 commands, 6 workflows across 8 plugins** — covering the full product lifecycle from discovery through growth, plus a dedicated agentic AI plugin that has no equivalent anywhere.
+
+```bash
+# Install in Claude Code — start using immediately
+claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
+```
 
 ---
 
-## Why This Exists
+## What This Actually Is
 
-Most PM skills collections treat product management as a generic discipline. They work fine if you're building a consumer app with a single buyer-user persona and a self-serve pricing page.
+This is **not** a collection of notes, templates, or study materials. It's a working product — a modular skills plugin you install into Claude Code, Claude Cowork, or any AI tool that supports [SKILL.md format](https://agentskills.io/specification).
 
-Enterprise B2B product management is a different job. You navigate multi-stakeholder procurement cycles that last months. You write PRDs with compliance sections because your customers' legal teams will read them. You design APIs that third parties integrate against and can't break. You balance the needs of the buyer who signs the contract against the user who lives in the product daily. You operate in regulated industries where "move fast and break things" gets you a lawsuit.
+Once installed, the skills activate automatically. Ask Claude to "write a PRD for my invoice categorization feature" and it pulls in the `prd-development` skill — complete with RICE scoring formulas, compliance section templates, multi-tenant architecture considerations, and a worked example with real numbers. The output is a production-ready document, not a starting point you need to rewrite.
 
-This marketplace encodes that context into every skill, every command, and every workflow.
+**What makes it different from every other PM skills collection:**
 
-It also includes something no other PM skills collection offers: a complete plugin for **agentic AI product management** — the emerging discipline of designing, evaluating, and governing AI systems that reason, decide, and act autonomously.
+Every skill embeds the actual frameworks — not just framework names. When the prioritization skill uses RICE scoring, the formula is there, the worked example scores 5 real features, and the enterprise-specific weighting adjustments are documented. When the guardrails skill designs a safety layer, it includes pseudocode for each of the 5 guardrail layers, a compliance mapping table for SOC 2/GDPR/HIPAA, and cost control thresholds.
+
+28,000+ lines of embedded methodology. Zero "go read the book" references. Zero placeholder sections.
+
+---
+
+## See It In Action
+
+### Example 1: `/write-spec` — Enterprise PRD in 2 Minutes
+
+**Input:** "Write a PRD for AI-assisted invoice categorization in our S2P platform"
+
+**Output (436 lines):**
+- Executive summary with business case and ROI projection
+- User personas: Accounts Payable Clerk (daily user) vs. VP Finance (buyer/sponsor)
+- Functional requirements with acceptance criteria
+- Multi-tenant data isolation architecture
+- Compliance section: SOC 2 audit logging, GDPR data residency, SOX financial controls
+- API contract with versioning strategy
+- Phased rollout plan by customer tier
+- Success metrics: categorization accuracy, time-to-close, AP team throughput
+
+### Example 2: `/design-ai-agent` — Agent Design Document in 15 Minutes
+
+**Input:** "Design an autonomous contract analysis agent for our CLM platform"
+
+**Output (887 lines):**
+- Evaluator-Optimizer topology with ASCII system diagram
+- 4-layer memory architecture (session, conversational, long-term, context window)
+- Tool inventory scored across 4 dimensions (capability, reliability, cost, security)
+- 5-layer guardrails stack with implementation pseudocode
+- SOC 2 + GDPR compliance mapping table
+- Human-in-the-loop decision matrix with confidence thresholds
+- Cost model: $27.04/contract with 947% ROI analysis
+- 4-phase rollout plan: pilot (5 customers) → limited → general → full autonomy
+
+### Example 3: `/competitive-brief` — Competitive Analysis With Parallel Research
+
+**Input:** "Compare our S2P platform against Coupa, SAP Ariba, and Jaggaer"
+
+**What happens:** The command spawns one subagent per competitor. Each independently researches positioning, pricing, features, and recent launches. Results merge into a unified brief with side-by-side comparison matrix, vulnerability/opportunity analysis per competitor, and recommended positioning adjustments.
+
+---
+
+## Quick Start
+
+### Claude Code (CLI)
+```bash
+# Install everything
+claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
+
+# Install just the agentic AI plugin
+claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst/pm-agentic-ai
+```
+
+### Claude Cowork (Desktop)
+Search for `enterprise-ai-product-manager-catalyst` in the plugin marketplace.
+
+### Manual / Other AI Tools
+```bash
+git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
+# Copy desired plugin folders to your AI tool's skills directory
+```
+
+Compatible with any tool supporting SKILL.md format: Cursor, GitHub Copilot, Windsurf.
+
+---
+
+## The 8 Plugins
+
+Each plugin covers one product lifecycle phase and is independently installable.
+
+| Plugin | Focus | Skills | Commands | What You Get |
+|--------|-------|:------:|:--------:|-------------|
+| **pm-discovery** | Research & validation | 5 | 2 | Teresa Torres CDH interview guides, JTBD mapping, TAM/SAM/SOM sizing with worked examples |
+| **pm-definition** | Specs & planning | 5 | 3 | Enterprise PRDs with compliance sections, RICE/ICE/MoSCoW with scoring formulas, roadmap planning with contract-renewal alignment |
+| **pm-delivery** | Build & ship | 4 | 1 | Given/When/Then acceptance criteria, sprint capacity planning, tech debt registries with negotiation frameworks |
+| **pm-launch** | GTM & rollout | 5 | 2 | Phased rollout by customer tier, migration runbooks, RFP response frameworks, channel activation timing |
+| **pm-growth** | Metrics & expansion | 4 | 1 | Metric trees, NRR decomposition, A/B test design with sample size calculators, willingness-to-pay research |
+| **pm-operations** | Cross-functional ops | 5 | 1 | Architecture Decision Records, RACI matrices, vendor scorecards with weighted evaluation |
+| **pm-leadership** | Vision & team | 4 | 1 | Pyramid principle for exec comms, OKR cascading, PM career ladders and coaching frameworks |
+| **pm-agentic-ai** | AI product design | 5 | 2 | Agent topology patterns, eval frameworks, guardrails stacks, HITL design, AI-native UX patterns |
+
+---
+
+## The Agentic AI Plugin — What No One Else Has
+
+The `pm-agentic-ai` plugin addresses an emerging discipline that no other PM skills marketplace covers: product-managing AI systems that reason, decide, and act autonomously.
+
+This isn't about chatbots with retrieval. It's about designing systems where an AI agent processes a contract, decides which clauses are non-standard, escalates high-risk terms to legal, and auto-approves routine renewals — with the right guardrails, oversight, and UX to make it safe and trustworthy.
+
+| Skill | What It Gives You |
+|-------|------------------|
+| **agentic-architecture** | 4-level Agency Spectrum (when you need agents vs. better automation), 5 agent topology patterns, tool/MCP selection scoring, memory architecture design, orchestration patterns |
+| **ai-evaluation** | Eval dimension taxonomy, LLM-as-judge patterns, human evaluation workflows, regression testing playbooks, quality gate design |
+| **guardrails-design** | 5-layer guardrails stack (input validation → prompt injection defense → output filtering → cost controls → compliance enforcement), regulatory mapping templates, audit trail design |
+| **human-in-loop** | 4-mode HITL spectrum, confidence threshold calibration, approval routing logic, escalation path design, SLA frameworks |
+| **ai-native-ux** | Progressive disclosure of AI reasoning, confidence indicators, explainability patterns, user correction loops, trust calibration models |
+
+**Commands:**
+
+`/design-ai-agent` chains all 4 core skills into a sequential workflow that produces a complete, VP-ready agent design document in ~15 minutes. Each step builds on the previous — architecture decisions inform guardrails, guardrails inform oversight thresholds, oversight informs UX patterns.
+
+`/eval-framework` produces an evaluation framework with dimensions, test cases, quality gates, and regression testing plans for any AI-powered feature.
+
+---
+
+## All 13 Commands
+
+| Command | Plugin | What It Produces | Time |
+|---------|--------|-----------------|:----:|
+| `/write-spec` | pm-definition | Enterprise PRD with compliance, multi-tenant, and procurement sections | ~3 min |
+| `/write-api-spec` | pm-definition | API specification with versioning, auth patterns, and rate limiting | ~3 min |
+| `/roadmap-update` | pm-definition | Roadmap with audience-specific views (exec, eng, customer) | ~2 min |
+| `/synthesize-research` | pm-discovery | Unified insight document from interviews, surveys, and tickets | ~3 min |
+| `/competitive-brief` | pm-discovery | Multi-competitor analysis with parallel subagent research | ~5 min |
+| `/plan-sprint` | pm-delivery | Sprint plan with goal alignment and capacity checks | ~2 min |
+| `/gtm-plan` | pm-launch | Go-to-market plan with parallel workstreams | ~4 min |
+| `/stakeholder-update` | pm-launch | Audience-tailored updates (exec, eng, customer versions) | ~3 min |
+| `/metrics-review` | pm-growth | Structured metrics review with root cause diagnosis | ~3 min |
+| `/decision-record` | pm-operations | Architecture Decision Record with context and consequences | ~2 min |
+| `/strategy-brief` | pm-leadership | Strategic brief for executive audiences | ~2 min |
+| `/design-ai-agent` | pm-agentic-ai | Complete agent design document (architecture → guardrails → HITL → UX) | ~15 min |
+| `/eval-framework` | pm-agentic-ai | AI evaluation framework with test cases and quality gates | ~5 min |
+
+Commands that support parallel execution spawn subagents automatically when your AI tool supports it:
+
+| Command | Pattern | What Each Subagent Does |
+|---------|---------|------------------------|
+| `/competitive-brief` | 1 per competitor | Research positioning, pricing, features, recent launches |
+| `/stakeholder-update` | 1 per audience | Generate exec, engineering, and customer versions |
+| `/synthesize-research` | 1 per data source | Analyze interviews, surveys, tickets independently |
+| `/gtm-plan` | 1 per workstream | Sales enablement, customer comms, internal readiness |
+
+---
+
+## 6 Cross-Plugin Workflows
+
+Workflows chain commands and skills across plugins for end-to-end PM processes.
+
+| Workflow | Chain | When to Use |
+|----------|-------|-------------|
+| **feature-kickoff** | Discovery → Spec → Design → Sprint | Starting a new feature from scratch |
+| **quarterly-planning** | OKR → Prioritization → Roadmap → Comms | Beginning-of-quarter planning cycle |
+| **launch-sequence** | GTM → Enablement → Rollout → Metrics | Coordinating a product launch |
+| **competitive-response** | Competitive Brief → Roadmap → Stakeholder Update | Reacting to competitor moves |
+| **ai-feature-lifecycle** | Design Agent → Eval → Spec → Launch | Shipping an AI-powered feature end-to-end |
+| **customer-discovery** | Interviews → Synthesis → JTBD → Spec | Running a discovery cycle from research to requirements |
+
+---
+
+## Why Enterprise B2B — Not Generic PM
+
+Most PM skills collections are written for consumer products with a single buyer-user persona and a self-serve pricing page. Enterprise B2B product management is a fundamentally different job:
+
+- **Procurement cycles** that last 6-18 months, not a credit card swipe
+- **Buyer ≠ User** — the VP who signs the contract has different needs than the analyst who uses the product daily
+- **Compliance is structural** — your customers' legal teams review your PRDs, your SOC 2 auditor reads your architecture docs
+- **Multi-tenant by default** — every feature needs data isolation, tenant-specific configuration, and governance controls
+- **APIs are products** — third parties build against your platform, so breaking changes have contractual consequences
+
+This marketplace encodes that context into every skill. Compliance sections aren't an afterthought bolted onto a consumer template. Multi-tenant considerations aren't a checkbox — they're woven into architecture decisions, rollout plans, and acceptance criteria.
+
+---
+
+## MCP Integration
+
+Skills detect and adapt to available MCP servers. Nothing fails if an MCP is missing — skills fall back gracefully and tell you what additional context they could use.
+
+| MCP Server | What It Enables |
+|------------|----------------|
+| **Jira** | Pull epics/stories into `/write-spec`, backlog into `/roadmap-update`, velocity into `/metrics-review` |
+| **Confluence** | Search prior specs and research, publish ADRs and updates |
+| **Notion** | Read/write OKR databases, research notes, knowledge bases |
+| **Gmail** | Send stakeholder updates and GTM materials |
+| **Figma** | Pull design context into specs and PRDs |
+| **Google Calendar** | Sprint ceremony scheduling, CAB meeting coordination |
 
 ---
 
@@ -38,164 +221,30 @@ The marketplace uses a three-layer architecture: **Skills → Commands → Workf
 │   /gtm-plan · /metrics-review · /eval-framework ...         │
 ├─────────────────────────────────────────────────────────────┤
 │                         SKILLS                              │
-│   Atomic building blocks encoding frameworks + enterprise   │
-│   context. Each skill is self-contained with embedded       │
-│   methodologies, worked examples, and common pitfalls.      │
+│   Atomic building blocks: embedded frameworks, worked       │
+│   examples, enterprise context, common pitfalls, evals      │
+│   28,000+ lines across 37 skills — zero stubs               │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Skills** are the atomic units. Each encodes a specific PM framework with embedded methodology — not just a framework name, but the actual scoring formula, the worked example, the enterprise-specific considerations. A skill never defers its core content to an external file that isn't shipped.
+**Skills** are the atomic units. Each is a self-contained SKILL.md (360-1,200+ lines) with the full framework embedded — scoring formulas, decision trees, worked examples with real numbers, enterprise-specific pitfalls, and eval test cases.
 
-**Commands** chain 2-4 skills together into a user-invoked workflow. When you run `/competitive-brief`, it chains competitive-analysis → market-sizing → vendor-evaluation and produces a structured output. Commands that benefit from parallelism (like `/competitive-brief` with one subagent per competitor) document their parallelization pattern.
+**Commands** chain 2-4 skills into a user-invoked action that produces a complete deliverable. Commands document their parallelization patterns for AI tools that support subagent orchestration.
 
-**Workflows** orchestrate commands and skills across plugin boundaries for end-to-end processes like launching a feature or running quarterly planning.
-
----
-
-## Plugins
-
-Each plugin covers one product lifecycle phase and is independently installable.
-
-| Plugin | Focus | Skills | Commands | Key Frameworks |
-|--------|-------|:------:|:--------:|----------------|
-| **pm-discovery** | Research & validation | 5 | 2 | Teresa Torres CDH, JTBD, TAM/SAM/SOM |
-| **pm-definition** | Specs & planning | 5 | 3 | RICE/ICE/MoSCoW, Now-Next-Later, OpenAPI |
-| **pm-delivery** | Build & ship | 4 | 1 | Given/When/Then, capacity planning, debt registries |
-| **pm-launch** | GTM & rollout | 5 | 2 | Launch tiers, phased rollout, RFP response |
-| **pm-growth** | Metrics & expansion | 4 | 1 | Metric trees, NRR, willingness-to-pay |
-| **pm-operations** | Cross-functional ops | 5 | 1 | ADRs, RACI, vendor scorecards |
-| **pm-leadership** | Vision & team | 4 | 1 | Pyramid principle, OKR cascading, PM ladders |
-| **pm-agentic-ai** | AI product design | 5 | 2 | Agent topology, eval frameworks, HITL patterns |
+**Workflows** orchestrate commands across plugin boundaries for end-to-end processes like launching a feature or running quarterly planning.
 
 ---
 
-## The Differentiator: pm-agentic-ai
+## Quality Standards
 
-This plugin has no equivalent in any competing PM skills marketplace. It addresses the emerging discipline of product-managing AI systems that reason, decide, and act — not chatbots with retrieval, but genuine agents.
+Every skill in this marketplace ships with:
 
-| Skill | What It Covers |
-|-------|---------------|
-| **agentic-architecture** | Agent topology (single vs. multi-agent), tool/MCP selection, memory architecture, orchestration patterns, and the critical distinction between automation and agency |
-| **ai-evaluation** | Eval dimensions, eval datasets, LLM-as-judge patterns, human evaluation workflows, regression testing across model upgrades |
-| **guardrails-design** | Input validation, output filtering, scope limiting, cost controls, compliance guardrails, audit trails, data residency |
-| **human-in-loop** | Approval workflows, confidence thresholds, exception handling, graceful degradation for regulated contexts |
-| **ai-native-ux** | Progressive disclosure of reasoning, confidence indicators, explainability, user corrections that improve the system, trust calibration |
-
-**Commands:**
-
-`/design-ai-agent` chains agentic-architecture → guardrails-design → human-in-loop → ai-native-ux to produce a complete agent design document.
-
-`/eval-framework` chains ai-evaluation → guardrails-design to produce an evaluation framework with dimensions, test cases, and quality gates.
-
----
-
-## Workflows
-
-Cross-plugin workflows chain skills and commands for end-to-end processes.
-
-| Workflow | Chain | When to Use |
-|----------|-------|-------------|
-| **feature-kickoff** | Discovery → Spec → Design → Sprint | Starting a new feature from scratch |
-| **quarterly-planning** | OKR → Prioritization → Roadmap → Comms | Beginning-of-quarter planning cycle |
-| **launch-sequence** | GTM → Enablement → Rollout → Metrics | Coordinating a product launch |
-| **competitive-response** | Competitive Brief → Roadmap → Stakeholder Update | Reacting to competitor moves |
-| **ai-feature-lifecycle** | Design Agent → Eval → Spec → Launch | Shipping an AI-powered feature |
-| **customer-discovery** | Interviews → Synthesis → JTBD → Spec | Running a discovery cycle |
-
----
-
-## Commands Quick Reference
-
-| Command | Plugin | What It Produces |
-|---------|--------|-----------------|
-| `/synthesize-research` | pm-discovery | Unified insight document from multiple research inputs |
-| `/competitive-brief` | pm-discovery | Structured competitive comparison with parallel analysis |
-| `/write-spec` | pm-definition | Enterprise PRD with compliance and multi-tenant sections |
-| `/write-api-spec` | pm-definition | API specification with versioning and auth patterns |
-| `/roadmap-update` | pm-definition | Updated roadmap with audience-specific views |
-| `/plan-sprint` | pm-delivery | Sprint plan with goal alignment and capacity checks |
-| `/gtm-plan` | pm-launch | Go-to-market plan with parallel workstreams |
-| `/stakeholder-update` | pm-launch | Audience-specific updates (exec, eng, customer) |
-| `/metrics-review` | pm-growth | Structured metrics review with diagnosis |
-| `/decision-record` | pm-operations | Architecture Decision Record with context |
-| `/strategy-brief` | pm-leadership | Strategic brief for executive audiences |
-| `/design-ai-agent` | pm-agentic-ai | Agent design document (architecture, safety, UX, eval) |
-| `/eval-framework` | pm-agentic-ai | AI evaluation framework with test cases and gates |
-
----
-
-## Subagent Orchestration
-
-Commands that benefit from parallelism document their subagent patterns. When running in Claude Code or Cowork with subagent support, these commands can execute significantly faster.
-
-| Command | Pattern | What Each Subagent Does |
-|---------|---------|------------------------|
-| `/competitive-brief` | 1 per competitor | Research positioning, pricing, features, launches |
-| `/stakeholder-update` | 1 per audience | Generate exec, engineering, and customer versions |
-| `/synthesize-research` | 1 per data source | Analyze interviews, surveys, tickets independently |
-| `/gtm-plan` | 1 per workstream | Sales enablement, customer comms, internal readiness |
-
-Commands marked as sequential-only (`/write-spec`, `/write-api-spec`, `/roadmap-update`, `/decision-record`) require iterative user dialogue and should not be parallelized.
-
----
-
-## MCP Integration
-
-Skills detect and adapt to available MCP servers. Nothing fails if an MCP is missing — skills fall back gracefully and inform you once about what additional context they could use.
-
-| MCP Server | What It Enables |
-|------------|----------------|
-| **Jira** | Pull epics/stories into `/write-spec`, backlog into `/roadmap-update`, velocity into `/metrics-review` |
-| **Confluence** | Search prior specs and research, publish ADRs and updates |
-| **Notion** | Read/write OKR databases, research notes, knowledge bases |
-| **Gmail** | Send stakeholder updates and GTM materials |
-| **Figma** | Pull design context into specs and PRDs |
-| **Google Calendar** | Sprint ceremony scheduling, CAB meeting coordination |
-
----
-
-## Enterprise B2B Context
-
-Every skill in this marketplace is written with enterprise context baked in, not bolted on. Here is what that means in practice:
-
-**In PRDs:** Compliance sections (SOC 2, GDPR, HIPAA implications), multi-tenant data isolation requirements, buyer vs. user persona analysis, procurement enablement notes.
-
-**In Roadmaps:** Customer commitment tracking, contract renewal alignment, partner/ISV dependency mapping, regulatory deadline awareness.
-
-**In Launch Plans:** Phased rollout by customer tier, migration runbooks, partner channel activation timing, procurement cycle awareness for pipeline impact.
-
-**In Metrics:** Net revenue retention alongside product engagement, time-to-value by customer segment, adoption curves segmented by buyer vs. user persona.
-
-**In AI Features:** Data residency requirements, audit trail design, compliance guardrails for regulated industries, enterprise-grade cost controls.
-
----
-
-## Installation
-
-### Claude Code (CLI)
-
-```bash
-# Install all plugins
-claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
-
-# Install a single plugin
-claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst/pm-agentic-ai
-```
-
-### Claude Cowork (Desktop)
-
-Install from the plugin marketplace: search for `enterprise-ai-product-manager-catalyst`.
-
-### Manual Installation
-
-```bash
-git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
-# Copy desired plugin folders to your Claude skills directory
-```
-
-### Other AI Tools
-
-Skills follow the [Agent Skills Specification](https://agentskills.io/specification) and are compatible with tools that support SKILL.md format, including Cursor, GitHub Copilot, and Windsurf.
+- **Embedded frameworks** — the actual scoring formulas, decision trees, and templates, not just framework names
+- **Worked examples** — at least one complete example with real numbers (e.g., a full RICE scoring for 5 features, a complete A/B test design with sample size calculations)
+- **Enterprise context** — compliance, multi-tenant, procurement, and buyer/user dynamics are structural, not bolted on
+- **Common pitfalls** — specific anti-patterns with explanations, drawn from real enterprise PM experience
+- **Eval test cases** — every skill ships with 3 structured test cases in `evals/evals.json` (111 total across the marketplace)
+- **Sample command outputs** — every command includes at least one complete example output showing what the deliverable looks like
 
 ---
 
@@ -204,13 +253,14 @@ Skills follow the [Agent Skills Specification](https://agentskills.io/specificat
 ```
 enterprise-ai-product-manager-catalyst/
 ├── README.md
-├── LICENSE                              # Apache 2.0
+├── CLAUDE.md                               # AI tool skill discovery
+├── LICENSE                                  # Apache 2.0
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── .claude-plugin/
-│   └── plugin.json                      # Plugin manifest
+│   └── plugin.json                          # Plugin manifest
 │
-├── pm-discovery/                        # 5 skills, 2 commands
+├── pm-discovery/                            # 5 skills, 2 commands
 │   ├── skills/
 │   │   ├── customer-interviews/SKILL.md
 │   │   ├── competitive-analysis/SKILL.md
@@ -221,7 +271,7 @@ enterprise-ai-product-manager-catalyst/
 │       ├── synthesize-research/
 │       └── competitive-brief/
 │
-├── pm-definition/                       # 5 skills, 3 commands
+├── pm-definition/                           # 5 skills, 3 commands
 │   ├── skills/
 │   │   ├── prd-development/SKILL.md
 │   │   ├── api-spec-design/SKILL.md
@@ -233,7 +283,7 @@ enterprise-ai-product-manager-catalyst/
 │       ├── write-api-spec/
 │       └── roadmap-update/
 │
-├── pm-delivery/                         # 4 skills, 1 command
+├── pm-delivery/                             # 4 skills, 1 command
 │   ├── skills/
 │   │   ├── sprint-planning/SKILL.md
 │   │   ├── acceptance-criteria/SKILL.md
@@ -242,7 +292,7 @@ enterprise-ai-product-manager-catalyst/
 │   └── commands/
 │       └── plan-sprint/
 │
-├── pm-launch/                           # 5 skills, 2 commands
+├── pm-launch/                               # 5 skills, 2 commands
 │   ├── skills/
 │   │   ├── gtm-planning/SKILL.md
 │   │   ├── sales-enablement/SKILL.md
@@ -253,7 +303,7 @@ enterprise-ai-product-manager-catalyst/
 │       ├── gtm-plan/
 │       └── stakeholder-update/
 │
-├── pm-growth/                           # 4 skills, 1 command
+├── pm-growth/                               # 4 skills, 1 command
 │   ├── skills/
 │   │   ├── metrics-analysis/SKILL.md
 │   │   ├── experimentation/SKILL.md
@@ -262,7 +312,7 @@ enterprise-ai-product-manager-catalyst/
 │   └── commands/
 │       └── metrics-review/
 │
-├── pm-operations/                       # 5 skills, 1 command
+├── pm-operations/                           # 5 skills, 1 command
 │   ├── skills/
 │   │   ├── stakeholder-comms/SKILL.md
 │   │   ├── decision-records/SKILL.md
@@ -272,7 +322,7 @@ enterprise-ai-product-manager-catalyst/
 │   └── commands/
 │       └── decision-record/
 │
-├── pm-leadership/                       # 4 skills, 1 command
+├── pm-leadership/                           # 4 skills, 1 command
 │   ├── skills/
 │   │   ├── vision-strategy/SKILL.md
 │   │   ├── okr-management/SKILL.md
@@ -281,7 +331,7 @@ enterprise-ai-product-manager-catalyst/
 │   └── commands/
 │       └── strategy-brief/
 │
-├── pm-agentic-ai/                       # 5 skills, 2 commands
+├── pm-agentic-ai/                           # 5 skills, 2 commands
 │   ├── skills/
 │   │   ├── agentic-architecture/SKILL.md
 │   │   ├── ai-evaluation/SKILL.md
@@ -292,7 +342,7 @@ enterprise-ai-product-manager-catalyst/
 │       ├── design-ai-agent/
 │       └── eval-framework/
 │
-└── workflows/                           # 6 cross-plugin workflows
+└── workflows/                               # 6 cross-plugin workflows
     ├── feature-kickoff.md
     ├── quarterly-planning.md
     ├── launch-sequence.md
@@ -303,79 +353,27 @@ enterprise-ai-product-manager-catalyst/
 
 ---
 
-## Activity Coverage
-
-This marketplace maps to 41 enterprise PM activities across 8 lifecycle phases. Every skill traces back to at least one activity.
-
-| Phase | Activities | Plugin |
-|-------|-----------|--------|
-| Discovery | Customer interviews, competitive analysis, feedback synthesis, JTBD mapping, market sizing, design thinking, CAB management | pm-discovery |
-| Definition | PRD/spec writing, prioritization, roadmap planning, technical feasibility, UX collaboration, API design, compliance review | pm-definition |
-| Delivery | Sprint planning, standups/unblocking, UAT/QA, analytics instrumentation, tech debt negotiation | pm-delivery |
-| Launch | GTM planning, sales enablement, release notes, documentation, customer migration, RFP response | pm-launch |
-| Growth | Metrics review, experimentation, customer success, pricing/packaging, expansion strategy | pm-growth |
-| Operations | Stakeholder comms, cross-functional alignment, vendor management, incident response, budget planning, platform strategy | pm-operations |
-| Leadership | Vision/strategy, OKR management, team coaching, executive presentations | pm-leadership |
-| Agentic AI | Agent architecture, AI evaluation, guardrails/governance, human-in-loop, AI-native UX | pm-agentic-ai |
-
----
-
-## Quality Standards
-
-Every skill in this marketplace meets these standards:
-
-- **Embedded frameworks** — scoring formulas, decision trees, and templates are included in the skill, not just named
-- **Worked examples** — at least one complete example showing input → output (e.g., a full RICE scoring for 5 features)
-- **Enterprise context** — compliance, multi-tenant, procurement, and buyer/user dynamics are visible, not generic
-- **Common pitfalls** — specific anti-patterns with explanations, not generic warnings
-- **Eval test cases** — every skill ships with test cases in `evals/evals.json`
-- **Sample command outputs** — every command ships with at least one example output
-
----
-
-## Design Principles
-
-**Enterprise-native, not enterprise-adapted.** Every skill is written for the enterprise context from the ground up. Compliance sections aren't an afterthought bolted onto a consumer PM template.
-
-**Frameworks embedded, not referenced.** When a skill uses RICE scoring, the formula is there. When it uses Teresa Torres' Continuous Discovery Habits, the interview question frameworks are there. No skill tells you to "go read the book."
-
-**MCP-adaptive, not MCP-dependent.** Skills detect available integrations and use them when present. Nothing breaks when Jira isn't connected — the skill adapts and tells you what you're missing.
-
-**Parallelism-aware.** Commands document whether they can run subagents in parallel and what each subagent does. Sequential-only commands are marked as such.
-
-**VP-scannable.** All outputs are written for an audience that scans before they read. Executive summaries first, details on demand.
-
----
-
 ## Competitive Landscape
 
-| Collection | Skills | Differentiator | Enterprise Depth | Agentic AI |
-|-----------|:------:|---------------|:----------------:|:----------:|
-| **This marketplace** | 37 | Enterprise B2B + Agentic AI PM | Deep | Complete plugin |
+| Collection | Skills | Focus | Enterprise Depth | Agentic AI |
+|-----------|:------:|-------|:----------------:|:----------:|
+| **This marketplace** | **37** | **Enterprise B2B + Agentic AI** | **Deep — structural, not bolted on** | **Complete plugin (5 skills, 2 commands)** |
 | phuryn/pm-skills | 65 | Breadth + classic frameworks | Light | None |
 | product-on-purpose/pm-skills | 31 | Triple Diamond framework | Light | None |
 | deanpeters/Product-Manager-Skills | 47 | Pedagogic rigor + multi-platform | Light | None |
 | alirezarezvani/claude-skills | 235+ | Scale across all domains | Medium | Partial |
 
+The difference isn't the count — it's the depth. Each of our 37 skills averages 750+ lines of embedded methodology. Most competing skills are 50-150 lines of framework references.
+
 ---
 
 ## What Ships in v1.0
 
-All 8 plugins are complete with production-grade content:
-
-- [x] **pm-agentic-ai** — 5 skills, 2 commands, 2 sample outputs, 15 eval test cases
-- [x] **pm-definition** — 5 skills, 3 commands, 3 sample outputs, 15 eval test cases
-- [x] **pm-discovery** — 5 skills, 2 commands, 2 sample outputs, 15 eval test cases
-- [x] **pm-launch** — 5 skills, 2 commands, 2 sample outputs, 15 eval test cases
-- [x] **pm-delivery** — 4 skills, 1 command, 1 sample output, 12 eval test cases
-- [x] **pm-growth** — 4 skills, 1 command, 1 sample output, 12 eval test cases
-- [x] **pm-operations** — 5 skills, 1 command, 1 sample output, 15 eval test cases
-- [x] **pm-leadership** — 4 skills, 1 command, 1 sample output, 12 eval test cases
-- [x] 6 cross-plugin workflows with full content
-- [x] 111 eval test cases across all 37 skills
-- [x] 13 sample command outputs
-
-**By the numbers:** 37 skills containing 28,000+ lines of embedded frameworks, worked examples, and enterprise-specific guidance. Every skill includes at least one complete worked example with real numbers — something no competing PM skills marketplace offers.
+- **37 skills** — 28,000+ lines of embedded frameworks, worked examples, and enterprise guidance
+- **13 commands** — each with a complete sample output showing the actual deliverable
+- **6 workflows** — cross-plugin orchestration for end-to-end PM processes
+- **111 eval test cases** — structured tests across all 37 skills (3 per skill)
+- **8 independently installable plugins** — use the full lifecycle or just the phases you need
 
 ---
 
@@ -383,12 +381,10 @@ All 8 plugins are complete with production-grade content:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding skills, commands, and workflows.
 
----
-
 ## License
 
 [Apache 2.0](LICENSE) — use it, extend it, build on it.
 
 ---
 
-*Built by [Saquib Jawed](https://github.com/SaquibPM), Director of Product Management, for enterprise PMs who build at scale.*
+*Built by [Saquib Jawed](https://github.com/SaquibPM) — Director of Product Management, building tools for enterprise PMs who ship at scale.*
