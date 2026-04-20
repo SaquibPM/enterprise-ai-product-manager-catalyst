@@ -1,0 +1,23 @@
+{
+  "skill_name": "customer-migration",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is sunsetting its legacy Spend Analytics platform (200 customers, $3M ARR). Migrate to new platform by Q4. Customer segments: (1) Enterprise (15 customers, high touch), (2) Mid-market (100 customers, standard), (3) SMB (85 customers, self-service). Plan migration strategy including timeline, support structure, data migration approach, incentives for early movers, risk mitigation for at-risk customers.",
+      "expected_output": "Customer migration plan with: 1) Segmented migration strategy by customer size 2) Timeline and phased approach (early adopters, bulk migration, laggards) 3) Data migration process and validation approach 4) Customer communication and support plan 5) Migration incentives and success rewards 6) At-risk customer identification and retention strategy 7) Rollback procedures and contingency plans 8) Success metrics (migration rate, churn rate, NPS during migration)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is sunsetting v1 API (200 customers) and requiring migration to v2 API within 90 days. Impact: 40% of customers have custom integrations. Support team capacity: 3 engineers. Create migration support strategy: documentation, training, prioritization, escalation.",
+      "expected_output": "API migration execution plan with: 1) Migration difficulty assessment by customer 2) Tiered support approach (self-service, training, professional services) 3) Communication cadence and checkpoints 4) Documentation and code examples 5) Support staffing and capacity planning 6) Escalation criteria and process 7) Success tracking (migration completion rate) 8) Incentives and deadline enforcement",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Cortex AI is consolidating product lines: merging 2 separate AI platforms into 1. Affects 300 customers with overlapping but distinct workflows. Some customers are on annual contracts. Create customer communication and adoption strategy to minimize churn.",
+      "expected_output": "Product consolidation migration with: 1) Customer segmentation (adoption likelihood, contract status) 2) Value communication (why consolidation benefits them) 3) Training and onboarding plan 4) Contract handling and renegotiation strategy 5) Workflow transition support 6) Incentive structure (discounts, extended support) 7) Churn prevention tactics 8) Success metrics (adoption rate, retention rate)",
+      "files": []
+    }
+  ]
+}

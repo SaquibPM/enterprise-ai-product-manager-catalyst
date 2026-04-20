@@ -8,5 +8,6 @@
   },
   "repository": "https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst",
   "license": "Apache-2.0",
-  "keywords": ["product-management", "enterprise", "b2b", "agentic-ai", "prd", "roadmap", "okr", "guardrails", "human-in-loop"]
+  "keywords": ["product-management", "enterprise", "b2b", "agentic-ai", "prd", "roadmap", "okr", "guardrails", "human-in-loop"],
+  "skills": "./skills/"
 }

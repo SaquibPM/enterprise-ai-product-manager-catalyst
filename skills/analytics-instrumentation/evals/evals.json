@@ -1,0 +1,23 @@
+{
+  "skill_name": "analytics-instrumentation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is launching AI-Assisted Invoice Categorization feature. Instrument this new feature for analytics. KPIs to track: feature adoption (% of invoices processed via AI), accuracy (% categorized correctly on first pass), user engagement (daily active users using feature), time saved (hours saved per user monthly), business impact (expansion revenue from advanced analytics module adoption). Define events, properties, and success thresholds for Q2 launch.",
+      "expected_output": "Analytics instrumentation plan with: 1) Event taxonomy (feature adoption, categorization attempts, feedback, overrides) 2) Event properties and user context (customer segment, invoice type, category) 3) Funnel analysis (upload -> categorization -> review -> feedback) 4) Cohort analysis approach (new users, enterprise vs. mid-market) 5) Dashboard requirements for product and business teams 6) Success metrics and thresholds (target adoption %, accuracy %) 7) Data quality and privacy considerations 8) Tools and infrastructure needed (event pipeline, analytics warehouse)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS released an AI-powered resume screening feature for recruiters. Business goals: reduce time-to-hire, increase recruiter satisfaction, improve hiring quality. Design analytics to measure: 1) Feature usage, 2) Time savings, 3) Recruiter satisfaction, 4) Quality of candidates (offer-to-interview ratio). What events and properties needed?",
+      "expected_output": "Analytics framework with: 1) User journey tracking (resume upload \u2192 screening \u2192 actions) 2) Time-in-motion events (time to screen, time to hire) 3) Satisfaction measurement (NPS, usage frequency) 4) Quality metrics (offer rate, rejection feedback) 5) Segmentation strategy (recruiter experience, company size) 6) Weekly/monthly reporting dashboards 7) Experiment design for feature improvements 8) Data privacy and compliance considerations",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData launched multi-tenancy platform. Product needs to understand: 1) Tenant adoption across segments, 2) Feature usage by tenant, 3) Performance impacts (query latency by tenant), 4) Revenue per tenant. Design comprehensive instrumentation for platform health and business intelligence.",
+      "expected_output": "Platform instrumentation plan with: 1) Tenant lifecycle events (onboarding, feature activation, churn) 2) Feature usage tracking per tenant 3) Performance metrics (query latency, error rates) 4) Revenue and unit economics tracking 5) Cohort analysis by tenant segment 6) Alerting on anomalies (churn patterns, performance degradation) 7) Monthly business reviews with data 8) Real-time dashboards for product and leadership",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "metrics-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI metrics from Q2: 150 customers, $20M ARR, NRR declined from 108% to 103%, mid-market segment showing 92% NRR while enterprise is 118%, monthly churn at 4%. Spend analytics module adoption: 78% of customers. Contract lifecycle management (CLM) feature usage: 45% of users active weekly. Customer CAC: $18K, LTV: $285K (18-month payback). Q2 expansion revenue: $850K (16% of new revenue). Analyze these metrics and recommend priorities for Q3.",
+      "expected_output": "Comprehensive metrics analysis including: 1) Health assessment of NRR decline and segment performance gap 2) Benchmarking enterprise vs. mid-market dynamics 3) Root cause analysis of NRR trend 4) Feature adoption and stickiness analysis (spend analytics, CLM) 5) LTV:CAC ratio sustainability assessment 6) Expansion revenue impact on unit economics 7) Segment-specific recommendations (enterprise growth vs. mid-market stabilization) 8) Q3 forecast with intervention strategies",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS monthly metrics: 45K active users, 3.2K daily active users (7% DAU/MAU), 35% weekly retention, feature usage: 60% of users use core search, 12% use new AI assistant. Conversion: 8% of free trial to paid. Revenue per user: $240/month enterprise, $80/month SMB. Analyze product health.",
+      "expected_output": "Product health analysis with: 1) Engagement assessment (DAU/MAU ratios) 2) Feature adoption and stickiness analysis 3) Retention and churn patterns by cohort 4) Free-to-paid conversion funnel 5) Monetization opportunity assessment 6) Segment-specific metrics (enterprise vs. SMB) 7) Benchmarking against industry peers 8) Recommendations for engagement and monetization improvements",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData quarterly metrics: 280 customers (15% growth), 60% multi-product adoption, expansion revenue: $120K/month (22% of new revenue), support tickets: 450/month (1.6 per customer), CSAT: 8.2/10, NPS: 42. Q1 budget: $500K (product, sales, marketing), CAC recovery: 8 months. Analyze unit economics.",
+      "expected_output": "Unit economics analysis with: 1) CAC payback and efficiency 2) LTV calculations and sustainability 3) Expansion revenue opportunity assessment 4) Support cost impact on margins 5) Segmentation analysis (profitable vs. unprofitable cohorts) 6) Pricing optimization opportunity 7) Budget allocation recommendations 8) Path to profitability and growth targets",
+      "files": []
+    }
+  ]
+}

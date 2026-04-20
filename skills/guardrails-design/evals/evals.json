@@ -1,0 +1,23 @@
+{
+  "skill_name": "guardrails-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design guardrails for ZyprocAI's autonomous invoice categorization agent. Risk scenarios: (1) Agent categorizes high-value invoices ($100K+) into wrong category (financial impact), (2) Agent categorizes vendor data incorrectly (SOX audit risk), (3) Agent processes invoices from unsupported formats (data quality). Define guardrails including: automatic human escalation rules, audit trail requirements, confidence thresholds for autonomous action.",
+      "expected_output": "Guardrails design with: 1) Risk taxonomy and severity assessment 2) Escalation rules (when to involve humans vs. proceed autonomously) 3) Confidence thresholds and decision gates 4) Audit trail and explainability requirements 5) Monitoring and alerting for failures 6) Rollback and remediation procedures 7) Compliance and regulatory alignment 8) Continuous improvement feedback loops",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're releasing an AI feature in our healthcare platform that helps nurses flag high-risk patients for physician review. It processes PHI and must comply with HIPAA. Map the guardrails we need and identify which ones are tech-enforced vs. policy-enforced.",
+      "expected_output": "Should produce compliance requirements matrix: HIPAA BAA scope, PHI access controls (field-level encryption, role-based access), audit logging requirements (who accessed what when), data retention policies, breach notification triggers, de-identification protocols for model training, and split recommendations between hard technical controls and organizational policies",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We have an AI feature that routes customer service tickets to specialists. It processes 100k requests/week. The cost per LLM call is $0.001. Our CEO wants the feature to stay under $100/week operational cost. Design cost control guardrails that don't hurt quality.",
+      "expected_output": "Should design multi-layer cost strategy: token budgeting by ticket type, caching for common patterns, routing heuristics that avoid LLM calls for obvious cases (keyword matching first), fallback to keyword routing when LLM costs exceed threshold, and metrics dashboard showing cost per ticket and quality trade-offs",
+      "files": []
+    }
+  ]
+}

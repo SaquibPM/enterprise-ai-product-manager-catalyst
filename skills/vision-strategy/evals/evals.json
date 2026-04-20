@@ -1,0 +1,23 @@
+{
+  "skill_name": "vision-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Craft a 3-year product vision for ZyprocAI (current: $20M ARR spend analytics platform). Vision: Transform from spend analytics to autonomous procurement platform where AI autonomously handles invoice processing, category coding, supplier recommendations, and contract renewals with human oversight. Outline capability evolution, technology roadmap, organizational changes, and market positioning shift.",
+      "expected_output": "Product vision and strategy with: 1) Vision statement and 3-year transformation roadmap 2) Capability evolution (spend analytics -> autonomous procurement) 3) Technology strategy (AI/ML models, integration architecture) 4) Product roadmap by phase (analytics, automation, autonomy) 5) Organizational capability requirements 6) Market positioning and competitive strategy 7) Revenue model evolution (impact on pricing) 8) Success metrics and transformation milestones",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS (Series A, $20M ARR) is competing against Workday, BambooHR, ADP in crowded HR tech market. Product strategy decision: 1) Become SMB specialist (low-cost, easy), 2) Build comprehensive platform (Workday competitor), 3) Vertical focus (finance, tech recruiting). Which direction? Create strategic vision with 5-year plan.",
+      "expected_output": "Strategic direction with: 1) Market analysis: TAM, competition, trends 2) Strategic options evaluation: specialist vs. platform vs. vertical 3) Recommendation with rationale 4) 5-year vision and milestones 5) Required capabilities and hiring 6) Capital implications 7) Customer and investor communication 8) Competitive moat and defensibility",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is transitioning from professional services ($15M revenue) to product-led SaaS (current product: $5M, goal: $50M). Leadership transition: bring in experienced CPO/VP Product to shape strategy. What strategic framework and vision should new leader develop? Create leadership briefing.",
+      "expected_output": "Strategic leadership framework with: 1) Current state assessment (revenue mix, margins, churn) 2) SaaS transformation vision (product-led motion, scale path) 3) Strategic bets (verticals, platform features, partnerships) 4) Organizational design (product, engineering, go-to-market) 5) Capability gaps and hiring plan 6) Financial model (services revenue phase-out, SaaS ramp) 7) Key metrics and milestones 8) Leadership priorities (first 90 days)",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "vendor-evaluation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is evaluating vendors for its invoice processing infrastructure. Candidates: (1) AWS Textract for invoice OCR/extraction, (2) Google Document AI (specialized invoice processor), (3) custom in-house solution. Evaluation criteria: accuracy (% extracted fields correct), latency (sub-second), cost (per-page), integrations, support. Vendor decision impacts architecture, cost structure, time-to-market. Conduct evaluation and recommend.",
+      "expected_output": "Vendor evaluation with: 1) Vendor comparison matrix 2) Evaluation criteria and scoring (accuracy, cost, integration, support) 3) Proof-of-concept results 4) Cost modeling and ROI analysis 5) Risk assessment (vendor lock-in, roadmap alignment) 6) Implementation timeline 7) Contract negotiation strategy 8) Recommendation and transition plan",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is selecting a customer data platform (CDP) for marketing automation. Finalists: Segment (established, expensive), mParticle (enterprise-focused), Twilio Segment (now unified), custom solution (2 months build, $100K). Requirements: ingest 500K daily events, segment building, third-party sync. Evaluate options.",
+      "expected_output": "CDP vendor evaluation with: 1) Feature-to-requirement mapping 2) Pricing comparison (events-based, user-based, hybrid) 3) Integration complexity (data sources, destinations) 4) Data privacy and compliance (GDPR, consent) 5) Customer success and support levels 6) Timeline to implementation 7) Build vs. buy ROI analysis 8) Risk assessment by option",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData evaluating payment processor for SaaS billing. Finalists: Stripe (developer-friendly), Zuora (enterprise), Chargebee (SMB-friendly), Bill.com (accounting integration). Requirements: complex billing (usage-based, variable contracts), dunning management, tax compliance, integrations (Salesforce, NetSuite). Evaluate.",
+      "expected_output": "Payment processor evaluation with: 1) Billing complexity support (usage-based, proration) 2) Dunning and recovery features 3) Tax compliance (multiregional) 4) Integration ecosystem 5) Pricing and margin impact (2-3% of revenue) 6) Implementation timeline (critical path) 7) Customer support for billing issues 8) Recommendation with risk mitigation",
+      "files": []
+    }
+  ]
+}

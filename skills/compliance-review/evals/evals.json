@@ -1,0 +1,23 @@
+{
+  "skill_name": "compliance-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is expanding to Europe. Review product compliance requirements: (1) GDPR (supplier data, invoice data classification), (2) SOX compliance (audit trail for finance systems), (3) ISO 27001 data security certification, (4) CCPA for US customers. Current system: supplier data stored in US, no encryption at rest. Identify gaps and recommend remediation for European launch in Q4.",
+      "expected_output": "Compliance review with: 1) Regulatory requirements mapping (GDPR, SOX, ISO 27001, CCPA) 2) Current state assessment and gap analysis 3) Data residency and sovereignty requirements for EU 4) Audit trail and controls documentation needs 5) Data encryption and access control requirements 6) Third-party vendor compliance (sub-processors) 7) Remediation roadmap with timeline and dependencies 8) Ongoing compliance monitoring and certification strategy",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Cortex AI is developing an enterprise AI assistant for financial services. Use cases: loan underwriting, fraud detection, portfolio recommendations. Compliance considerations: Anti-discrimination (ECOA, FHA), Fair Lending rules, SOX for financial reporting, GLBA for consumer data. Customers: Top 20 US banks. Review compliance requirements and product design implications.",
+      "expected_output": "Compliance analysis with: 1) Anti-discrimination and fair lending requirements 2) AI model explainability and audit trail requirements 3) Consumer data privacy under GLBA 4) Financial reporting and SOX compliance 5) Bias testing and mitigation strategy 6) Regulatory reporting obligations 7) Legal disclaimer requirements 8) Compliance verification process",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "TalentOS is expanding HR platform to APAC region (Singapore, Australia, Japan). Features include: recruitment, performance management, compensation analytics. Compliance challenges: PDPA (Singapore), Privacy Act (Australia), APPI (Japan), Works Council requirements in some countries, local labor law differences. Conduct regional compliance review for 6-country rollout.",
+      "expected_output": "Regional compliance framework with: 1) Country-by-country regulatory summary 2) Data localization and transfer requirements 3) Works Council and employment law considerations 4) Consent and opt-out mechanisms by country 5) Required local partnerships or compliance officers 6) Data retention and deletion policies 7) Launch checklist by country 8) Go-to-market timeline with compliance gates",
+      "files": []
+    }
+  ]
+}

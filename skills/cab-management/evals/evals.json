@@ -1,0 +1,23 @@
+{
+  "skill_name": "cab-management",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is launching its Customer Advisory Board (CAB) with 6 members from target segments: 3 enterprise finance directors (Citi, Chevron, Accenture), 2 mid-market CFOs (logistics, manufacturing), 1 procurement consultant (Big 4). CAB scope: quarterly reviews of roadmap, feedback on new spend analytics features, competitive intelligence, early access to beta features. Design CAB program including charter, meeting cadence, roles, incentives, feedback mechanisms.",
+      "expected_output": "CAB program design with: 1) Charter and governance (objectives, scope, decision-making) 2) Participant selection criteria and roles (executive sponsors, power users, diverse industry representation) 3) Meeting cadence and engagement model (quarterly, working groups) 4) Agenda setting and decision-making process 5) Feedback collection mechanisms (surveys, working sessions, direct interviews) 6) Incentive and recognition program 7) Success metrics (engagement, NPS, feature adoption post-launch) 8) Operational logistics and communication plan",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "SecureData is forming a customer advisory board for our data governance platform. We have 12 nominated customers (3 Fortune 100, 5 mid-market, 4 SMB). Constraints: limited travel budget, need to accommodate global timezones (APAC, EMEA, Americas), and ensure geographic diversity. Create governance structure and operational plan.",
+      "expected_output": "CAB operational framework with: 1) Selection criteria and confirmation process 2) Proposed composition balanced by size, geography, industry 3) Meeting logistics (frequency, format - virtual vs in-person) 4) Agenda planning for 12 months 5) Feedback mechanism and product input workflow 6) Renewal/replacement process",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Cortex AI is establishing a technical advisory board for our MLOps platform targeting data science leaders at enterprises. Candidates include heads of ML at Uber, Netflix, Amazon, Meta (internal), plus 8 other high-performing data teams. Focus areas: model monitoring, governance, cost optimization. Design engagement model, meeting structure, and feedback loop.",
+      "expected_output": "Technical CAB design with: 1) Role definition and commitment expectations 2) Meeting structure with technical depth 3) Feedback incorporation for product development 4) Recognition and incentive structure 5) IP protection and confidentiality agreements 6) Success metrics tied to product impact",
+      "files": []
+    }
+  ]
+}

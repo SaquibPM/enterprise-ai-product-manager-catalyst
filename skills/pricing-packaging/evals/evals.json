@@ -1,0 +1,23 @@
+{
+  "skill_name": "pricing-packaging",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is restructuring its pricing model. Current: $15K-50K annual based on spend volume analyzed. New market data: competitors (Coupa, Jaggr, Ariba) use consumption-based models ($0.08-0.15 per invoice). ZyprocAI has 150 customers: 40 enterprise ($40K avg), 80 mid-market ($18K avg), 30 SMB ($8K avg). Q2 data shows mid-market expansion revenue 23% from add-on features (advanced analytics, supplier intelligence). Recommend pricing and packaging strategy.",
+      "expected_output": "Pricing strategy including: 1) Competitive positioning analysis 2) Value-based pricing model (tied to spend insights, savings generated) 3) Package structure (Core, Professional, Enterprise) with feature mapping 4) Consumption pricing component and thresholds 5) Customer segment targeting and migration path 6) Revenue impact modeling for existing customer base 7) Expansion revenue opportunity (advanced analytics, supplier modules) 8) Go-to-market and sales enablement requirements",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS currently charges per-seat ($100/user/month). Sales team says: 1) Enterprise wants annual discounts (20-30%), 2) SMB wants usage-based (pay only for active recruiters), 3) Agencies need multi-customer pricing. Design flexible pricing model balancing simplicity and revenue optimization.",
+      "expected_output": "Flexible pricing design with: 1) Seat-based core pricing tier 2) Annual commitment options and discounts 3) Usage-based tier design for SMB 4) Multi-tenant/agency pricing 5) Add-on modules (AI features, integrations) 6) Volume discount structure 7) Competitive analysis and positioning 8) Transition plan from current model",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is re-platforming to multi-tenancy and wants to re-price accordingly. Current model: based on data volume ($5K-$50K/month). New model options: 1) Per-user pricing, 2) Usage-based (queries/data scanned), 3) Consumption + base fee hybrid. Existing 280 customers have varying volumes. Design new model with migration strategy.",
+      "expected_output": "Repricing strategy with: 1) New pricing model rationale 2) Customer segmentation impact 3) Fair migration framework (grandfather options, discounts) 4) Revenue bridge (maintain ARR during transition) 5) Competitive positioning 6) Customer communication plan 7) Sales talking points 8) Financial projections (Q2-Q4 impact)",
+      "files": []
+    }
+  ]
+}

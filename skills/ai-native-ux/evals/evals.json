@@ -1,0 +1,23 @@
+{
+  "skill_name": "ai-native-ux",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Design AI-native UX for ZyprocAI's next-gen procurement platform. Key features: (1) Natural language spend queries (\"How much did we spend with Acme Corp this year?\"), (2) Autonomous invoice categorization with inline feedback, (3) Supplier risk alerts with explanations, (4) Proactive recommendations (\"Contract with Vendor X is expiring in 30 days\"). Create mockups and interaction patterns that embrace AI as core to the experience, not a secondary feature.",
+      "expected_output": "AI-native UX design with: 1) Design principles for AI-native interfaces 2) Natural language interface patterns and examples 3) Autonomous action affordances (confidence indicators, override mechanisms) 4) Feedback and correction workflows 5) Explanation and transparency mechanisms (why did AI recommend X?) 6) Error handling and edge cases 7) Interaction patterns for transparency and trust-building 8) Prototypes and usability testing plan",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're shipping an AI-powered code review tool for engineers. It suggests refactors and catches bugs. Engineers are skeptical of AI quality. Design the UX that progressively builds trust while reducing cognitive load on code reviewers.",
+      "expected_output": "Should address: suggestion confidence indicators (show uncertainty transparently), progressive disclosure pattern (show simple suggestions first, complex ones later), explanation strategy (why this refactor, what's the impact), interaction affordances (accept/reject with reasoning), integration with existing code review workflow to avoid context switching, and metrics on suggestion adoption and engineer trust calibration over time",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're launching an AI assistant for our enterprise ERP system that helps finance teams with month-end close processes. The team is new to AI and has high accuracy expectations. Design the AI-native UX that calibrates trust appropriately and prevents misuse.",
+      "expected_output": "Should design: competency indicators showing what the AI can reliably do (month-end checklist items, accrual calculations) vs. uncertain areas (judgment calls), confidence ratings on each recommendation with explanation, mandatory human verification for high-impact items (journal entries > $100k), interaction pattern that guides correct usage (examples of good queries, warnings about risky operations), trust-building through consistent accuracy tracking, and onboarding that sets realistic expectations",
+      "files": []
+    }
+  ]
+}

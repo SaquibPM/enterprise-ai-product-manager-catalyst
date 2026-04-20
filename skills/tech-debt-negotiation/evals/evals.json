@@ -1,0 +1,23 @@
+{
+  "skill_name": "tech-debt-negotiation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's engineering lead identifies technical debt blocking feature velocity: (1) Invoice processing service needs refactoring (30% latency improvement possible), (2) Invoice storage uses deprecated AWS SDK (maintenance risk), (3) Invoice ocr integration uses legacy library. Refactoring would take 2 sprints (80 story points) vs. 15 story points/sprint for feature work. Negotiate with PM and leadership on addressing tech debt while maintaining feature velocity for $3M ARR growth target.",
+      "expected_output": "Tech debt negotiation strategy with: 1) Tech debt inventory with business impact quantification 2) Refactoring effort estimates and risk assessment 3) Option analysis (fix now, fix later, workaround) 4) Customer impact if debt is not addressed 5) Resource trade-offs and timeline implications 6) Proposal for phase approach (critical path vs. lower priority) 7) Success metrics for debt reduction 8) Governance framework for future tech debt decisions",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "SecureData's infrastructure team says the monolithic architecture limits scalability and they need a 90-day microservices refactoring. This delays SMB product launch by 1 quarter. Sales team pushing hard for launch (SMB TAM: $50M). Engineering says without refactoring, platform will max out at 1000 customers. Current: 200 customers. Negotiate path forward.",
+      "expected_output": "Strategic negotiation with: 1) Architecture impact assessment on growth ceiling 2) SMB market opportunity vs. scaling risk 3) Phased refactoring approach (modularity without full rewrite) 4) Hybrid solution (launch SMB on current architecture, migrate after traction) 5) Resource allocation (can parallel streams work?) 6) Financial impact modeling 7) Risk mitigation (what if SMB adoption exceeds scaling limits?) 8) Stakeholder buy-in strategy",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "TalentOS engineering says test coverage is dangerously low (18%, should be 60-70%). They estimate 4 weeks of work to build test infrastructure and improve coverage, but this delays a critical feature for a $5M customer. The feature is 80% complete. How do you balance risk?",
+      "expected_output": "Risk-based negotiation with: 1) Technical debt risk assessment (production impact, maintenance burden) 2) Customer risk (delayed feature, relationship impact) 3) Quality metrics and defect correlation analysis 4) Phased approach (ship feature with enhanced testing, then backfill) 5) Quality gates and customer acceptance criteria 6) Release and rollback strategy 7) Monitoring and incident response plan 8) Long-term testing investment roadmap",
+      "files": []
+    }
+  ]
+}

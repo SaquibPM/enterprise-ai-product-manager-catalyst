@@ -1,0 +1,23 @@
+{
+  "skill_name": "sprint-planning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Plan a 2-week sprint for ZyprocAI's Spend Analytics team (6 engineers, 1 PM, 1 designer). Backlog includes: (1) Fix SAP multi-currency connector bug (blocking 8 customers), (2) Build Finance Analyst onboarding flow (new hire training, 5 users/week joining), (3) AI categorization performance optimization (reduce latency 2s -> 0.5s), (4) Design Supplier Risk dashboard (design complete, needs implementation). Team velocity: 40 story points. Create sprint plan.",
+      "expected_output": "Sprint plan with: 1) Sprint goal and connection to roadmap 2) Prioritized backlog with story points and acceptance criteria 3) Story breakdown (what gets committed vs. nice-to-have) 4) Spike investigation if needed 5) Dependencies and blockers 6) Team capacity planning (vacation, support load) 7) Definition of done and testing strategy 8) Sprint ceremonies (standup, retro, demo) schedule and success criteria",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS engineering team (8 people) is planning a 3-week sprint. Backlog: 12 stories prioritized by Sales (6 stories, $2M opportunity), Product (4 stories, roadmap features), and Engineering (2 stories, tech debt from recent outage). Team velocity: 45 points/3-week sprint. Create realistic sprint plan with trade-off recommendations.",
+      "expected_output": "3-week sprint plan with: 1) Story selection and acceptance criteria 2) Stakeholder trade-off analysis 3) Velocity-based capacity planning 4) Daily standup and blocker management approach 5) Testing and QA strategy 6) Deployment and rollback plan 7) Sprint metrics and success criteria 8) Risk mitigation for customer-facing stories",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData has 6 engineering teams (40 people total) planning Q2. Enterprise Product team (12 people): 2 features, 3 bugs; SMB Product team (10 people): 1 new product, 2 features; Infrastructure team (8 people): 2 platform improvements; DevOps team (6 people): monitoring and incident response; Data team (4 people): analytics pipeline. Create Q2 sprint schedule with dependencies.",
+      "expected_output": "Quarterly sprint plan with: 1) Team-level sprint goals across 6 teams 2) Cross-team dependencies and synchronization points 3) Shared resource allocation 4) Feature completion timeline 5) Release coordination and go-live plan 6) Escalation and blockers management 7) Communication cadence across teams 8) Metrics and reporting dashboard",
+      "files": []
+    }
+  ]
+}

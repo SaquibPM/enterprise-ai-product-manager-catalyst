@@ -1,0 +1,23 @@
+{
+  "skill_name": "team-coaching",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Coach a Product Manager on ZyprocAI's Supplier Intelligence team struggling with feature prioritization. PM is over-committing features, misses deadlines, struggling to say no to sales. Use coaching approach to: (1) understand root causes of over-commitment, (2) build capability in saying no, (3) develop prioritization discipline, (4) strengthen relationship with sales and engineering teams. Plan 4-session coaching engagement over 8 weeks.",
+      "expected_output": "Coaching plan with: 1) Initial assessment and goal setting 2) Session 1: Root cause analysis (perfectionism, people-pleasing, prioritization skills) 3) Session 2: Prioritization frameworks and decision-making discipline 4) Session 3: Influence and negotiation (saying no to stakeholders) 5) Session 4: Sustainability and capability building 6) Between-session work and reflection exercises 7) Success metrics (on-time delivery, stakeholder satisfaction) 8) Handoff to ongoing support and peer learning",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "You're managing a junior PM (1st PM role) who is overwhelmed. Issues: 1) Getting lost in details, 2) Not prioritizing roadmap work, 3) Stuck in analysis paralysis on major decision, 4) Limited peer network, 5) Imposter syndrome. Create coaching plan to build confidence and competence.",
+      "expected_output": "Development coaching with: 1) Structured onboarding: PM fundamentals, company context, role expectations 2) Priority management: teach frameworks (Kano, RICE) and decision-making approach 3) Analysis paralysis resolution: when to decide vs. gather more info 4) Skill building: customer discovery, roadmap planning, stakeholder management 5) Peer mentoring: pair with senior PM for reviews 6) Confidence building: small wins, feedback on strengths 7) 90-day assessment and plan adjustment",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A PM on your team is being recruited away by competitor. Exit conversation reveals: 1) Bored with current scope, 2) Feeling stuck career-wise, 3) No clear growth path, 4) Better comp offer from competitor. Opportunity: retain by reimagining role. What coaching and career development do you offer?",
+      "expected_output": "Retention coaching with: 1) Listening session: understand their growth aspirations, what excites them 2) Expanded scope proposal: lead product strategy for new vertical or platform 3) Career development plan: path to director/principal PM role 4) Compensation adjustment (if appropriate) 5) Mentorship and executive sponsorship 6) External learning opportunities (conferences, certifications) 7) Check-ins and progress tracking 8) Alternative: graceful transition if they still want to leave",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "release-notes",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI is releasing v2.8 with: (1) AI-Assisted Invoice Categorization (feature launch), (2) Multi-currency support for SAP invoices (bug fix impacting 8 customers), (3) Supplier Risk Dashboard (new module, available in Pro and Enterprise plans), (4) API v2 deprecation notice (migrate to v3 by Q4). Write release notes targeting: finance teams, system integrators, API developers.",
+      "expected_output": "Comprehensive release notes with: 1) Headline features and benefits 2) Feature details with screenshots/GIFs for UI changes 3) Bug fixes and known issues 4) Migration guides for deprecated features 5) API changes and developer notes 6) Pricing and packaging updates (Supplier Risk module) 7) Support contact information and community links 8) Timeline for future deprecations and breaking changes",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is releasing AI resume screening feature (major feature launch). Announcement needs to address: 1) Recruiters (users), 2) Candidates (data subjects), 3) Compliance officers (regulatory), 4) Executives (internal). Write release notes highlighting value, fairness, and transparency.",
+      "expected_output": "Comprehensive release notes with: 1) Feature overview and use cases 2) Recruiter benefits and workflow changes 3) Candidate experience and transparency/fairness guardrails 4) Compliance and bias mitigation measures 5) Privacy and data handling 6) Training and onboarding resources 7) FAQ and troubleshooting 8) Feedback channels for fairness concerns",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is releasing multi-tenancy architecture (breaking change). Existing single-tenant customers must migrate. Release notes need to: 1) Explain benefits, 2) Document migration process, 3) Address concerns (data isolation, performance), 4) Provide support resources. Target audiences: technical teams and business stakeholders.",
+      "expected_output": "Migration-focused release notes with: 1) Executive summary of multi-tenancy benefits 2) Technical architecture overview 3) Migration timeline and process 4) Data isolation and security guarantees 5) Performance improvements and testing results 6) Step-by-step migration guide 7) Rollback plan and contingencies 8) Support resources and escalation path",
+      "files": []
+    }
+  ]
+}

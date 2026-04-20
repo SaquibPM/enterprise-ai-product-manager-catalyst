@@ -1,0 +1,23 @@
+{
+  "skill_name": "decision-records",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Document a critical product decision for ZyprocAI: Adopt Claude API for invoice categorization instead of building in-house model. Decision: leverages latest research, 95%+ accuracy immediately, reduces engineering headcount by 2 people, costs $0.03/invoice at scale. Create Architecture Decision Record documenting: context, decision, rationale, trade-offs, consequences.",
+      "expected_output": "ADR with: 1) Decision title and summary 2) Context and problem statement 3) Options considered (Claude, GPT-4, in-house model) 4) Decision and rationale 5) Trade-offs and consequences 6) Risks and mitigation 7) Success criteria and monitoring plan 8) Approval sign-offs and review date",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS decided to move from GraphQL to REST API for new features (reversing previous architecture decision). Reason: team struggled with GraphQL complexity, REST faster to ship. Decision affects: platform architecture, developer experience, future integrations. Document decision with context for future reference.",
+      "expected_output": "ADR for API strategy with: 1) Title: Revert to REST API Architecture 2) Status: Accepted 3) Context: GraphQL adoption challenges, time-to-market pressure 4) Decision: REST for new features, GraphQL deprecation timeline 5) Rationale: team productivity, schema simplicity, faster feature delivery 6) Consequences: two API versions, migration path for existing clients 7) Alternatives: hybrid approach, GraphQL training 8) Review date and success metrics",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData decided to build multi-tenancy in-house rather than migrate to multi-tenant SaaS platform (e.g., Supabase). Engineering invested 4 months. Now realizing maintenance burden. Create ADR reviewing the decision and considering reversal.",
+      "expected_output": "Retrospective ADR with: 1) Title: In-house Multi-Tenancy vs. Platform 2) Status: Under Review 3) Original context and rationale 4) Results: actual effort, maintenance burden, benefits realized 5) Current trade-off assessment 6) Options forward: continue in-house, migrate to platform, hybrid 7) Decision criteria and metrics 8) Next review date and contingency plan",
+      "files": []
+    }
+  ]
+}

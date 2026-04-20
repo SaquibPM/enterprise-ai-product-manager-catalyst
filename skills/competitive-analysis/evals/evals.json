@@ -1,0 +1,23 @@
+{
+  "skill_name": "competitive-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Analyze ZyprocAI's competitive position against 3 key competitors: (1) Coupa (cloud spend management, $6.4B market cap, extensive supplier network), (2) Jaggr (spend intelligence, raised $180M, AI-driven analytics), (3) SAP Ariba (enterprise-focused, integrated with SAP ecosystem, 4M+ suppliers). Focus areas: AI capabilities, ease of supplier onboarding, invoice processing speed, mid-market pricing, compliance automation (SOX, GDPR). Create competitive positioning analysis.",
+      "expected_output": "Competitive analysis with: 1) Feature comparison matrix (AI, invoice processing, supplier workflows, compliance) 2) Competitive strengths and gaps for each competitor 3) Go-to-market strategy analysis (enterprise vs. SMB/mid-market focus) 4) Pricing comparison and value perception 5) Customer segment targeting by competitor 6) Technology differentiation (AI/ML capabilities) 7) Recommendation for ZyprocAI positioning and defensible advantages 8) Strategic priorities to maintain competitive edge in AI-driven spend analytics",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "At Infinitech, we're launching a managed DLP (Data Loss Prevention) solution targeting financial services. Existing players include Forcepoint, Proofpoint, and Symantec. Our differentiation is AI-powered anomaly detection. Analyze how each competitor prices, what features command premium pricing, and where we can compete on value vs. cost.",
+      "expected_output": "Competitive analysis with: 1) Pricing tiers and per-user/transaction costs 2) Feature-to-price mapping for each competitor 3) Enterprise buyer preferences (compliance, usability, integration) 4) Market positioning analysis 5) Sales objection handling strategies 6) Roadmap recommendations to close capability gaps",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureFlow develops identity and access management solutions. We're entering the SMB market against Okta, Microsoft Entra, and OneLogin. Analyze competitive strengths in SMB segments, implementation timelines, and pricing elasticity. Our hypothesis is that mid-market buyers (500-5000 employees) are underserved by incumbent pricing and complexity.",
+      "expected_output": "Segmented competitive analysis showing: 1) Competitor positioning by company size 2) Pricing models and TCO comparisons 3) Implementation and time-to-value analysis 4) Feature gaps in SMB offerings 5) Customer satisfaction metrics by segment 6) Recommended positioning and pricing strategy",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "experimentation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's Spend Analytics team is designing experiments for Q3. Current hypothesis: AI-assisted invoice categorization (powered by Claude) can improve user time-to-insights from 4 hours to 1 hour and increase weekly active users by 15%. Test plan: 40% of customers (mid-market focused) in experiment cohort, 4-week duration, randomized at customer level. Primary metrics: time-to-insights, feature adoption rate. Secondary metrics: support tickets, NPS. Design the experiment framework with success criteria.",
+      "expected_output": "Detailed experiment design with: 1) Hypothesis validation approach 2) Sample size and statistical power calculations 3) Metric selection and measurement approach 4) Randomization strategy and bias mitigation 5) Run analysis and early stopping rules 6) Launch preparation (data infrastructure, logging) 7) Win/loss analysis plan (why invoice categorization drives adoption) 8) Success criteria and decision framework for rollout",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS wants to test onboarding flow: 1) Current: manual setup, 10 days to first hire. 2) New: AI-powered assistant, goal <2 days to first hire. Test on SMB segment (fastest growth). Hypothesis: faster time-to-value improves retention and expansion. Design experiment with success metrics.",
+      "expected_output": "Product experimentation plan with: 1) Hypothesis and mechanism (why faster onboarding drives retention) 2) Cohort selection (SMB, new customers) 3) Treatment: AI assistant vs. current process 4) Primary metric: days to first hire 5) Secondary metrics: retention, expansion revenue, NPS 6) Sample size and duration 7) Analysis approach (intent-to-treat) 8) Success threshold and guardrails",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData wants to test expansion motion: 1) Control: sales-driven upsell. 2) Test: in-app expansion feature (recommend modules based on usage). Goal: increase multi-product adoption from 60% to 75%. Constraint: 400 customers in test, 10% can be sacrificed if test fails. Design test.",
+      "expected_output": "Expansion experiment design with: 1) Hypothesis and mechanism 2) Customer segment selection (risk assessment) 3) In-app experience design 4) Primary metric: multi-product adoption 5) Secondary metrics: feature adoption, expansion revenue 6) Measurement approach (tracking module adoption) 7) Duration and sample size 8) Loss leader tolerance and rollback plan",
+      "files": []
+    }
+  ]
+}

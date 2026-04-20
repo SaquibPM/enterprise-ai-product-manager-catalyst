@@ -1,0 +1,23 @@
+{
+  "skill_name": "expansion-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI's Product team is planning expansion revenue growth. Current: 150 customers, $20M ARR, expansion revenue 16% of total. Opportunities: (1) Category intelligence module (AI-driven supplier recommendations) - estimated TAM $30M, (2) Spend intelligence for indirect categories (non-commodity spend) - TAM $25M, (3) Supplier risk management with ESG scoring - TAM $18M. Mid-market customers show highest propensity for add-ons (23% adoption). Create expansion strategy to reach $2.5M annual expansion revenue.",
+      "expected_output": "Expansion strategy with: 1) Market sizing for each opportunity 2) Customer segment willingness-to-pay analysis 3) Feature prioritization based on revenue potential and build complexity 4) Packaging and pricing for add-on modules 5) Customer segmentation for targeted expansion (mid-market vs. enterprise readiness) 6) Sales motion and pricing strategy 7) Launch sequencing (which module first, timing) 8) Revenue forecast and unit economics for each expansion module",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is expanding internationally: started in US ($12M ARR), now exploring APAC. Initial markets: Singapore (premium market, high CAC), India (high volume, lower CAC), Japan (complex regulation). Goals: $5M ARR from APAC in 3 years. Design entry strategy: market selection, localization, hiring, GTM.",
+      "expected_output": "International expansion plan with: 1) Market selection rationale (Singapore, India, Japan) 2) Go-to-market by market (direct, partnership, channel) 3) Localization needs (language, features, compliance) 4) Hiring and team structure 5) Financial model by market (CAC, LTV) 6) Timeline and milestones 7) Risk mitigation (regulatory, competition) 8) Contingency plan if initial market underperforms",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData is pursuing platform expansion: current = data governance, adding 1) AI/ML governance, 2) API governance, 3) Cloud security. All target same buyer (Chief Data Officer). Strategy: 1) Acquisition path (buy vs. build), 2) Integration into platform, 3) Sales motion changes. Recommend expansion path.",
+      "expected_output": "Platform expansion strategy with: 1) Build vs. buy vs. partner analysis 2) Product integration approach (single pane of glass) 3) Sales bundling strategy (cross-sell, upsell) 4) Pricing and packaging changes 5) Competitive positioning 6) Customer communication (roadmap, migration) 7) Resource and financial model 8) Success metrics and milestones",
+      "files": []
+    }
+  ]
+}

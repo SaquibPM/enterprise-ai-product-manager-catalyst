@@ -1,0 +1,23 @@
+{
+  "skill_name": "api-spec-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI needs an API for partners (e.g., accounting software, ERP systems) to integrate invoice data and receive AI categorization results. Requirements: (1) Ingest invoice metadata (vendor, date, amount, account code), (2) Return AI category recommendations + confidence scores, (3) Accept feedback (override, corrections), (4) Retrieve historical categorization for compliance/audit. Design the API specification including endpoints, request/response schemas, error handling, rate limits, authentication.",
+      "expected_output": "API specification with: 1) Authentication and authorization (OAuth 2.0 for partner apps) 2) Core endpoints (/invoices/categorize, /feedback, /history, /categories) 3) Request/response schemas with examples (invoice payload, category recommendations) 4) Error handling and status codes 5) Rate limiting and throttling strategy 6) Data validation and sanitization requirements 7) SLA and uptime guarantees 8) Documentation approach and developer portal requirements",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create API spec for data export feature in our analytics platform. Use cases: CSV/Parquet/JSON exports, scheduled exports to S3/Azure, size limit 100GB per export. Customers: enterprise data teams with governance requirements. Include pagination, compression options, and audit logging for compliance (GDPR, SOC2).",
+      "expected_output": "Detailed API design with: 1) POST /exports endpoint for export creation 2) GET /exports/{id} for status polling 3) Export format options and compression 4) Storage destination configuration 5) Async job handling and webhooks 6) Pagination and chunk download strategy 7) Audit logging specification 8) Error scenarios and retry handling",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Design GraphQL API for our customer data platform (CDP). Support use cases: 1) Real-time audience segmentation queries, 2) Customer profile retrieval with 50+ attributes, 3) Batch export of segments, 4) Real-time subscription to audience changes. Performance requirement: 99.9% uptime, <500ms p99 latency.",
+      "expected_output": "GraphQL API specification with: 1) Schema design for queries, mutations, subscriptions 2) Customer and audience types with nested resolvers 3) Real-time subscription implementation 4) Pagination and filtering strategy 5) Caching approach (Redis layer) 6) Authentication and permission model 7) Rate limiting and quota enforcement 8) Documentation with SDL examples",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill_name": "market-sizing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Size the TAM for ZyprocAI's next-generation AI-powered procurement analytics platform targeting enterprise and mid-market. Include: (1) Addressable market - US companies with $500M+ revenue (estimated 15,000), (2) Enterprise segment (Fortune 5000) spend management budget, (3) Mid-market (mid-sized) procurement transformation budgets, (4) Average contract value likely $25K-60K based on spend volume and modules. Calculate TAM and identify highest-opportunity segments.",
+      "expected_output": "Market sizing analysis with: 1) Total addressable market (TAM) estimation using bottom-up and top-down approaches 2) Segmentation by company size and geography 3) Procurement technology spending trends and growth drivers 4) Customer acquisition potential in each segment 5) Willingness-to-pay by segment (enterprise vs. mid-market) 6) Serviceable addressable market (SAM) for ZyprocAI's 3-year roadmap 7) Share of market (SOM) realistic targets 8) Market dynamics and competitive saturation analysis",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "VendorTech develops enterprise procurement automation software. Current customers: 150 mid-market (1000-10K employees), $200K ACV. Expansion targets: 1) SMB (200-1000 employees) at $50K ACV, 2) Enterprise (10K+ employees) at $500K ACV. Global software buyers estimated at 3.2M companies. Calculate addressable market and revenue potential by segment.",
+      "expected_output": "Segmented market sizing with: 1) Bottom-up TAM using customer acquisition data 2) Top-down TAM using total addressable companies 3) SAM by segment with adoption rates 4) SOM with realistic sales ramp 5) Competitive displacement potential 6) 3-year projection with confidence intervals",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SupplyChain AI targets manufacturing supply chain optimization. Total US manufacturers: 290K. Our ICP: 10K-50K employees, annual software spend $5-15M, APAC/EMEA expansion adds 1.8M potential customers. Current win rate: 5%, deal size $300K. Project TAM and realistic market capture scenarios.",
+      "expected_output": "Market sizing framework with: 1) Geographic TAM breakdown (US, APAC, EMEA) 2) Vertical segmentation analysis 3) Company size-based distribution 4) ACV by segment with justification 5) Market growth drivers and headwinds 6) Competitive share assumptions and path to market leadership",
+      "files": []
+    }
+  ]
+}

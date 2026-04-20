@@ -1,0 +1,23 @@
+{
+  "skill_name": "rfp-response",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Large enterprise procurement team (2000+ suppliers) issued RFP for spend analytics platform. Key requirements: (1) Process 1M+ invoices/month, (2) Multi-currency support (12 currencies), (3) Supplier master data integration with Oracle ERP, (4) Real-time spend visibility dashboard, (5) Audit trail for SOX compliance, (6) API for custom integrations. Prepare ZyprocAI's RFP response addressing all requirements with architecture, timeline, pricing.",
+      "expected_output": "RFP response with: 1) Executive summary and company overview 2) Solution architecture addressing all requirements 3) Implementation timeline and methodology 4) Team expertise and customer references 5) Risk mitigation and support approach 6) Pricing model and contract terms 7) Technology roadmap alignment with customer needs 8) Appendices (case studies, security certifications, API documentation)",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "SecureData received RFP from US federal agency (CISO, 200+ personnel). Requirements: FedRAMP certification, FISMA compliance, government contracting terms, US data residency, 24-hour security incident response, annual security audit. Company: startup, not FedRAMP certified. How do you respond?",
+      "expected_output": "Government RFP response with: 1) Compliance roadmap (FedRAMP timeline, milestones) 2) Interim security measures and attestations 3) Federal contracting terms (FAR, DFARS) 4) Incident response capabilities and SLAs 5) Data residency and sovereignty guarantees 6) Audit and compliance documentation 7) Recommendations for phased approach or pilot 8) Escalation to executive relationships",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "TalentOS responding to RFP from Fortune 500 financial services firm (APAC region). Requirements: GDPR, local data residency (Japan, Singapore, Australia), localized language support, specific reporting formats, regional compliance. RFP deadline: 45 days. Build response covering capabilities and roadmap items.",
+      "expected_output": "Global RFP response with: 1) Regional compliance summary by country 2) Data residency and processing architecture 3) Language and localization roadmap 4) Reporting and integration capabilities 5) Implementation by region with timelines 6) Support and SLA commitments 7) Customer references in APAC 8) Commercial terms and pricing model",
+      "files": []
+    }
+  ]
+}

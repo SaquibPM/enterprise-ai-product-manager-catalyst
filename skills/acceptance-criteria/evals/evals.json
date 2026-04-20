@@ -1,0 +1,23 @@
+{
+  "skill_name": "acceptance-criteria",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI feature: AI-Assisted Invoice Categorization for its spend analytics platform. User story: As a Finance Analyst at a ZyprocAI customer, I want invoices to be auto-categorized into 200+ spend categories so I can focus on exceptions rather than manual coding. Define specific, testable acceptance criteria covering: happy path (invoice auto-categorized with >90% confidence), edge cases (unsupported invoice formats, ambiguous categories), user feedback/override mechanism, audit trail for SOX compliance.",
+      "expected_output": "Detailed acceptance criteria with: 1) Happy path scenarios (successful categorization, confidence thresholds) 2) Edge case coverage (invalid formats, low confidence, feedback loops) 3) Performance criteria (processing time, accuracy targets) 4) User experience criteria (UI responsiveness, error messaging) 5) Data and compliance criteria (audit trail, data retention) 6) Integration criteria (API contracts, downstream system updates) 7) Test scenarios and data requirements 8) Sign-off and definition of done",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Feature: API endpoint for retrieving customer sentiment from support tickets. Business goal: Sales team uses sentiment to identify at-risk customers. Requirements: Support 3 languages (EN, ES, JP), batch processing (up to 1000 tickets), latency <5 seconds, confidence score on sentiment. Design acceptance criteria.",
+      "expected_output": "Detailed acceptance criteria including: 1) Language support and translation accuracy 2) Batch processing performance (throughput, latency) 3) Sentiment classification accuracy (positive/negative/neutral) 4) Confidence score ranges and threshold definition 5) Error handling (malformed input, timeout) 6) Rate limiting and quota enforcement 7) API response format and documentation 8) Compliance (PII redaction, data retention)",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Feature: Multi-tenant data isolation in our SaaS platform. Current: single-tenant per customer database. New: 100+ customers on shared database with row-level security. Security requirement: complete data isolation, GDPR compliance. Performance target: <50ms query latency. Write acceptance criteria covering security and performance.",
+      "expected_output": "Acceptance criteria with: 1) Data isolation verification (cross-tenant visibility tests) 2) Query performance benchmarks by tenant size 3) Audit logging and GDPR compliance verification 4) Failover and disaster recovery testing 5) Capacity planning and resource limits 6) Migration testing for existing customers 7) Regression testing across all features 8) Security penetration testing scope and results",
+      "files": []
+    }
+  ]
+}

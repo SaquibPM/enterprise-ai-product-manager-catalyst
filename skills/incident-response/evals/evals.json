@@ -1,0 +1,23 @@
+{
+  "skill_name": "incident-response",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ZyprocAI experienced a production incident: Invoice categorization AI crashed for 4 hours, affecting 50 customers, $80K in lost revenue/productivity. Root cause: API rate limit exceeded during surge load. Post-incident, conduct blameless retro with engineering team. Focus: improve incident response, prevent recurrence, rebuild customer trust. Create incident post-mortem and action plan.",
+      "expected_output": "Incident response plan with: 1) Incident timeline and impact assessment 2) Root cause analysis (rate limiting, monitoring gaps) 3) Detection and escalation improvements 4) Remediation (circuit breakers, rate limit handling) 5) Customer communication and recovery plan 6) Preventive measures (load testing, capacity planning) 7) Process improvements (alerting, runbooks) 8) Action items, owners, and completion dates",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS discovers a data breach: unauthorized access to candidate resume data (PII) for 10K candidates. Discovered by security team within 2 hours. Affects: customers (notification required), candidates (breach notification law), regulatory (breach reporting), brand. Create incident response including notification, legal, investigation.",
+      "expected_output": "Security incident response with: 1) Forensics: scope, access, exposure duration 2) Immediate containment (access revoked, systems hardened) 3) Customer notification (timeline, messaging, support) 4) Regulatory notification (GDPR timeline, attorney coordination) 5) Candidate notification (required disclosures, credit monitoring offer) 6) Investigation and root cause 7) Remediation and system hardening 8) Public communication and brand recovery",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData detects multiple large customers experiencing data inconsistency after multi-tenancy migration (some rows visible across tenants). Severity: critical, affects 8 customers, impacts regulatory compliance. Create emergency incident response including customer management, investigation, remediation.",
+      "expected_output": "Critical incident response with: 1) Severity assessment and customer impact triage 2) Immediate suspension of tenant replication while investigating 3) Customer communication: transparency on severity, investigation timeline 4) Data validation and integrity verification 5) Remediation: data cleanup, tenant rebalancing 6) Customer escalation: executive briefings, credit/compensation 7) Post-incident hardening 8) Incident review and process improvements",
+      "files": []
+    }
+  ]
+}

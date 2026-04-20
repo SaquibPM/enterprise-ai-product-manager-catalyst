@@ -1,0 +1,23 @@
+{
+  "skill_name": "executive-presentations",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Prepare quarterly business review presentation for ZyprocAI's Board (2 VCs, CEO/Founder, CFO). Key topics: Q2 results ($20M ARR, 40% growth, NRR 103%), mid-market segment momentum, product roadmap (Supplier Intelligence launch), market expansion plans (EMEA in Q4), hiring plans (10 people for product/eng). Address: unit economics, customer retention risk (NRR decline), competitive threats (Coupa, Jaggr). Create presentation deck structure.",
+      "expected_output": "Board presentation with: 1) Business performance dashboard (ARR, growth, churn, NRR, margins) 2) Market and competitive analysis (market trends, ZyprocAI positioning) 3) Product and roadmap updates (launches, strategic initiatives) 4) Unit economics and financial projections 5) Risk assessment and mitigation strategy 6) Hiring and resource plan 7) Key decisions needed from board 8) Q3 goals and milestones",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "TalentOS is pitching new product line (AI features) to Board. Required vote: $2M R&D investment. Key ask: greenlight development and hiring 4 engineers. Risk: delays core product roadmap, integration complexity. Expected upside: $5M+ revenue in year 3, competitive moat. Create compelling board pitch (15 minutes including Q&A).",
+      "expected_output": "Board pitch deck with: 1) Market opportunity (why AI in HR, TAM, competitive necessity) 2) Product vision and features 3) Financial model (investment required, revenue projections, ROI) 4) Competitive context (why we must move fast) 5) Execution plan and milestones 6) Risk assessment and mitigation 7) Team and capability assessment 8) Key asks (approval, budget, timeline)",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "SecureData VP Sales is asking executive team for product priorities that will help hit $10M ARR goal (currently on track at $8M run-rate, need $2M uplift). Top 3 asks: 1) Faster implementations (reduce deployment time), 2) Better analytics (show ROI to customers), 3) Marketplace/integrations (reduce custom dev). You have capacity for 1-2. Create executive summary recommending priority.",
+      "expected_output": "Executive summary with: 1) Sales priorities and business impact of each 2) Analysis: impact to ACV, sales velocity, expansion 3) Recommendation: analytics shows highest ROI (improve expansion $1.2M annually, improve win rate 10%) 4) Implementation plan and timeline 5) Resource requirements (engineering, design, ops) 6) Success metrics 7) Risk if deprioritized 8) Financial impact and path to $10M",
+      "files": []
+    }
+  ]
+}
