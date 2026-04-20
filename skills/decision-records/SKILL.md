@@ -1,5 +1,5 @@
 ---
-name: Decision Records and Architecture Decision Records (ADRs)
+name: decision-records
 slug: decision-records
 description: Document product and technical decisions with clarity, traceability, and future-proofing in enterprise contexts
 version: 1.0

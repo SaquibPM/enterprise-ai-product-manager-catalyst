@@ -1,5 +1,5 @@
 ---
-name: Platform and Ecosystem Strategy for Enterprise Products
+name: platform-strategy
 slug: platform-strategy
 description: Design API-first platforms, build partner ecosystems, and enable third-party developers to extend your product
 version: 1.0

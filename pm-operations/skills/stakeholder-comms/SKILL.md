@@ -1,5 +1,5 @@
 ---
-name: Stakeholder Communication for Enterprise PM
+name: stakeholder-comms
 slug: stakeholder-comms
 description: Master audience-specific communication strategies for executives, engineering, customers, and sales in enterprise environments
 version: 1.0

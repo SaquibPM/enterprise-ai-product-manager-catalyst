@@ -1,5 +1,5 @@
 ---
-name: Product Incident Response from the PM Perspective
+name: incident-response
 slug: incident-response
 description: Manage product incidents from customer impact through post-mortem, including SLA compliance and executive communication
 version: 1.0

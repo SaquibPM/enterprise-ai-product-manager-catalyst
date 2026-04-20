@@ -1,5 +1,5 @@
 ---
-name: Vendor and Technology Partner Evaluation
+name: vendor-evaluation
 slug: vendor-evaluation
 description: Evaluate build vs. buy decisions, score vendors systematically, navigate security/compliance requirements, and conduct effective pilots
 version: 1.0

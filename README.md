@@ -9,8 +9,10 @@ You run `/design-ai-agent`. Fifteen minutes later you have a 30-page agent desig
 That's what this marketplace does. **37 skills, 13 commands, 6 workflows across 8 plugins** — covering the full product lifecycle from discovery through growth, plus a dedicated agentic AI plugin that has no equivalent anywhere.
 
 ```bash
-# Install in Claude Code — start using immediately
-claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
+# Clone and use in Claude Code — start using immediately
+git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
+cd enterprise-ai-product-manager-catalyst
+claude --plugin-dir .
 ```
 
 ---
@@ -71,23 +73,23 @@ Every skill embeds the actual frameworks — not just framework names. When the 
 
 ### Claude Code (CLI)
 ```bash
-# Install everything
-claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst
-
-# Install just the agentic AI plugin
-claude plugins install SaquibPM/enterprise-ai-product-manager-catalyst/pm-agentic-ai
+git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
+cd enterprise-ai-product-manager-catalyst
+claude --plugin-dir .
 ```
+
+Once Claude Code loads, type `/prd-development` or `/agentic-architecture` to invoke any of the 37 skills directly. Or just describe what you need — Claude will automatically activate the right skill.
 
 ### Claude Cowork (Desktop)
-Search for `enterprise-ai-product-manager-catalyst` in the plugin marketplace.
+Select the cloned repo folder as your workspace. Skills activate automatically when you describe a PM task.
 
-### Manual / Other AI Tools
+### Other AI Tools (Cursor, GitHub Copilot, Windsurf)
 ```bash
 git clone https://github.com/SaquibPM/enterprise-ai-product-manager-catalyst.git
-# Copy desired plugin folders to your AI tool's skills directory
+# Copy the skills/ directory to your AI tool's skills folder
 ```
 
-Compatible with any tool supporting SKILL.md format: Cursor, GitHub Copilot, Windsurf.
+Compatible with any tool supporting [SKILL.md format](https://agentskills.io/specification).
 
 ---
 
@@ -259,6 +261,10 @@ enterprise-ai-product-manager-catalyst/
 ├── CHANGELOG.md
 ├── .claude-plugin/
 │   └── plugin.json                          # Plugin manifest
+├── skills/                                  # Flat skill directory for Claude Code
+│   ├── prd-development/SKILL.md             #   (mirrors from plugin subdirectories)
+│   ├── agentic-architecture/SKILL.md
+│   ├── ... (37 skills total)
 │
 ├── pm-discovery/                            # 5 skills, 2 commands
 │   ├── skills/
@@ -359,7 +365,7 @@ enterprise-ai-product-manager-catalyst/
 |-----------|:------:|-------|:----------------:|:----------:|
 | **This marketplace** | **37** | **Enterprise B2B + Agentic AI** | **Deep — structural, not bolted on** | **Complete plugin (5 skills, 2 commands)** |
 | phuryn/pm-skills | 65 | Breadth + classic frameworks | Light | None |
-| product-on-purpose/pm-skills | 31 | Triple Diamond framework | Light | None |
+| product-on-purpose/pm-skills | 38 | Triple Diamond framework | Light | None |
 | deanpeters/Product-Manager-Skills | 47 | Pedagogic rigor + multi-platform | Light | None |
 | alirezarezvani/claude-skills | 235+ | Scale across all domains | Medium | Partial |
 
